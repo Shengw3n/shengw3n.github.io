@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: Steven's Engineering Blog
+subtitle: 'A UBC Engineering Adventure'
+description: 'A UBC Engineering Student Blog'
+keywords: UBC Engineering Student Blog
+author: Steven Chen
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://shengw3n.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
