@@ -420,15 +420,10 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
-                    <br>
-                    Powered by <a href="https://shengw3n.github.io">Steven's Blog</a> |
-                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
-                        height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=shengw3n&repo=shengw3n.github.io&type=star&count=true">
-                    </iframe>
-                </p>
+    <span>Copyright <span>
+    <i class="iconfont icon-copyright"></i>
+    <a href="/about" target="_blank" rel="nofollow noopener"><span> Steven Chen </span></a>
+    <span>2023<span>
   '
 
   # 展示网站的 PV、UV 统计数
