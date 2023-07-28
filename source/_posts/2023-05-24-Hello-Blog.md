@@ -1,13 +1,8 @@
 ---
-layout:     post
-title:      Hello World
-subtitle:   "Hello World, Hello Blog"
-date:       2023-05-24 12:00:00
-author:     "Steven"
-header-img: "img/Post_1_ESC_front.jpg"
-catalog: true
-tags:
-    - Web Dev
+title: Hello World
+tags: [Web Dev]
+index_img: /img/Post_1_ESC_front.jpg
+date: 2023-05-24 12:00:00
 ---
 
 > “Save.”  
