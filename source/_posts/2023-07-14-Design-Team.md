@@ -1,15 +1,8 @@
 ---
-layout:     post
-title:      My First Year Design Team Experience
-subtitle:   at UBC Rocket
-date:       2023-07-14 12:00:00
-author:     "Steven"
-header-img: "img/rockets.jpg"
-catalog:    true
-mathjax: false
-streamableId: v4dg4o
-tags:
-    - UBC Engineering
+title: First Year Design Team @ UBC Rocket
+tags: [Hexo, Fluid]
+index_img: /img/rockets.jpg
+date: 2023-07-14 12:00:00
 ---
 
 Engineering design teams are similar to your typical high school FIRST Robotics team, except they are bigger, better, and richer. People join them to design cool stuffs, learn technical skills, and build a strong resume for co-ops.
