@@ -1,15 +1,8 @@
 ---
-layout:     post
-title:      Arknights Pull Analysis
-subtitle:   Via Mathematical Modeling
-date:       2023-06-15 12:00:00
-author:     "Steven"
-header-img: "img/arknights.png"
-catalog:    true
-mathjax: true
-tags:
-    - Math
-    - Gaming
+title: Arknights Pull Analysis
+tags: [Math, Gaming]
+index_img: /img/arknights.png
+date: 2023-06-15 12:00:00
 ---
 
 This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single **random** 6-star character in the mobile game Arknights. Feel free to utilize the provided catalog on the right-hand side to navigate to the specific sections that pique your interest.
