@@ -1,6 +1,6 @@
 ---
 title: First Year Design Team @ UBC Rocket
-tags: [Hexo, Fluid]
+tags: [UBC Engineering]
 index_img: /img/rockets.jpg
 date: 2023-07-14 12:00:00
 ---
