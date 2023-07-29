@@ -1,7 +1,7 @@
 ---
 title: Hello World
 tags: [Web Dev]
-index_img: /img/Post_1_ESC_front.jpg
+banner_img: /img/banner/1_hello_world.jpg
 date: 2023-05-24 12:00:00
 ---
 
