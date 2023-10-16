@@ -6,7 +6,7 @@ banner_img: /img/banner/1_helloworld.jpg
 excerpt: Welcome to my blog! :)
 date: 2023-05-24 12:00:00
 ---
-<p class="note note-success">”Commit changes...”</p>
+> "Commit changes...”
 
 And so begins Steven’s Blog.
 
