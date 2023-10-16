@@ -3,7 +3,7 @@ title: Hello World
 tags: [Web Dev]
 index_img: /img/banner/1_helloworld.jpg
 banner_img: /img/banner/1_helloworld.jpg
-excerpt: Welcome to my blog! :)
+excerpt: Welcome to my blog :)
 date: 2023-05-24 12:00:00
 ---
 > "Commit changes...”
