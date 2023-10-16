@@ -1,36 +1,26 @@
 ---
 title: Hello World
 tags: [Web Dev]
-index_img: /img/example.jpg
-banner_img: /img/banner/1_hello_world.jpg
+index_img: /img/banner/1_helloworld.jpg
+banner_img: /img/banner/1_helloworld.jpg
+excerpt: Welcome to my blog! :)
 date: 2023-05-24 12:00:00
 ---
-
-> “Save.”  
-
+<p class="note note-danger">”Commit changes...”</p>
 And so begins Steven’s Blog.
+I've been contemplating creating a blog for some time now, centred around my life as an engineering student and highlighting the projects I've been diligently working on. The summer before the second year seems like the perfect opportunity to embark on this endeavour.
+---
+# How the blog is made
+This site is up and running thanks to the elegant [Fluid theme](https://hexo.fluid-dev.com/docs/en/) for the static [Hexo framework](https://hexo.io/index.html), and it's deployed via [GitHub Pages](https://pages.github.com/).
 
-I’ve been contemplating creating a blog for some time now, centred around my life as an engineering student and highlighting the projects I’ve been diligently working on.  The summer before second year seems like the perfect opportunity to embark on this endeavour. 
+Deploying blogs via GitHub Pages is a popular choice because it offers several advantages:
+* **Speed**: Website updates in less than a minute.
+* **Cost-Effective**: GitHub Pages are essentially free to use.
+* **Simplicity**: You can create new blog posts via git commits.
+* **Markdown-Based**: We love markdown!
 
-## How the blog is made
-This page is functional thanks to the powerful synergy of  [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) along with [Xuan](https://github.com/huxpro)’s amazing [template](https://github.com/Huxpro/huxpro.github.io). 
+You can follow the instructions [here](https://hexo.fluid-dev.com/docs/en/start/) to start creating your own fluid-themed Hexo blog. You'll need some familiarity with console commands and front-end languages, mainly HTML and CSS, perhaps a bit of JavaScript if you fancy some customization. But nothing that a quick YouTube search can't solve.
 
-**GitHub Pages** + **Jekyll** is a popular solution to fast website making. It is also utilized by [another UBC engineering student blog](https://cindyxmiao.github.io/blog/) which ultimately inspired me to creating my own.  
-
-This solution offers several notable advantages:
-* **Markdown-based**: Articles are written in markdown files.
-* **GitHub Pages**: You can upload your website for free.
-* **Enhanced security**: Static website consisting of pure HTML files, there's no database for hackers to attack. 
-
-However, you need some familiarity with HTML and CSS for this setup, which falls more in the realm of computer science than traditional engineering. If you’re interested in exploring the process yourself or have an interest in front-end development, there is a helpful [YouTube Playlist](https://youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB). It's a very striaght forward guide on setting on your own website using Jekyll. 
-- - - -
-
-Ultimately I didn’t end up using the webpage I coded since it was plain and lack any cool features, and I was not interested in learning HTML for the rest of my summer.
-
-In the end I found a [template](https://github.com/Huxpro/huxpro.github.io) I liked and forked it. The entire process took less than 2 min lol a stark contrast to the whole day spent trying to code my own. 
-
-Nevertheless, it was still valuable to have some understanding of how Jekyll works. This knowledge allows me to start customizing and refining this blog in the future, adding personal touches to make it uniquely mine. So, while I opted for a template, having familiarity with Jekyll proved to be beneficial in shaping and enhancing my blog to reflect my vision.
-- - - -
+Once Fluid is downloaded, configured, and running smoothly locally, you can upload your code and deploy it via GitHub Pages. Alternatively, you can explore other services like [Netlify](https://www.netlify.com/) or similar options.
+---
 So, welcome to my blog.
-
-
