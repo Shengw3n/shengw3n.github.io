@@ -76,7 +76,7 @@ CHEM 154 is essentially Chemistry 12 on steroids. You learn some stoichiometry i
 ### PHYS 157
 *Difficulty: ⭐⭐* 
 
-Physics 157 teaches you about thermodynamics and waves and will be your first university-level physics. You will learn that a heat engine is the exact opposite of a refrigerator and how waves can be used to measure space compressions. Honestly, the hardness deserves a ⭐⭐⭐ but this insane [YouTube playlist](https://youtube.com/playlist?list=PLODFGtnlvFGdAWq9H3Y6UjyKqCwn6FzoG)exists. Professor Raamsdonk is the goat.
+Physics 157 teaches you about thermodynamics and waves and will be your first university-level physics. You will learn that a heat engine is the exact opposite of a refrigerator and how waves can be used to measure space compressions. Honestly, the hardness deserves a ⭐⭐⭐ but this insane [YouTube playlist](https://youtube.com/playlist?list=PLODFGtnlvFGdAWq9H3Y6UjyKqCwn6FzoG) exists. Professor Raamsdonk is the goat.
 - Workload:
 	- Weekly reading quiz
 	- Weekly online Mastering Physics questions or written worksheets
