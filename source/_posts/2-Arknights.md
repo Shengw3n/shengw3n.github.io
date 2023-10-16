@@ -16,14 +16,16 @@ Arknights[^1] is a popular mobile tower defense game where players take on the r
 The game incorporates a gacha system that revolves around acquiring new operators through randomized draws, each with designated probabilities. Operators are categorized by their star ratings, with 6-star operators considered the most powerful and 1-star operators the least. The probability of obtaining a 6-star operator stands at 2% per entry by default, although exceptions may apply as detailed below:
 
 In-game description of the pity system:
-<p class="note note-info">`If you do not roll a 6-star operator after 50 rolls, the probability of obtaining a 6-star Operator on the next roll will be increased from **2%** to **4%**. If you still do not roll a 6-star Operator, the probability of obtaining a 6-star Operator on the next row will be further increased from **4%** to **6%**, and this process repeats until a maximum probability of **100%**, at which point you are guaranteed to receive a 6-star Operator.`</p>
+{% note info %}
+`If you do not roll a 6-star operator after 50 rolls, the probability of obtaining a 6-star Operator on the next roll will be increased from **2%** to **4%**. If you still do not roll a 6-star Operator, the probability of obtaining a 6-star Operator on the next row will be further increased from **4%** to **6%**, and this process repeats until a maximum probability of **100%**, at which point you are guaranteed to receive a 6-star Operator.`
+{% endnote %}
 
 ## What is the problem?
 We know the probability of obtaining a six-star unit in Arknights upon each individual roll, but **we do not know the expected number of rolls required to obtain a six-star unit**.
 
 Knowing the expected value of obtaining a six-star is important because players needs to determine the amount of Orundum (Arknights' Gacha currency) they need to accumulate prior to event banners in order to safely secure their desired operators. This question is increasingly relevant, particularly with the recent launch of the Limited Event “IL Siracusano”. 
 
-Numerous attempts have been made to tackle this problem, such as utilizing the [Monte Carlo Approach](https://rpubs.com/zyLiu6707/arknights-pull-simulation) or running [Exploratory Data Analysis](https://rpubs.com/Frizu/arknightsgacha). In this post, I will attempt to construct a mathematical model that can be employed to determine this average, offering another perspective on this intriguing problem.
+Numerous attempts have been made to tackle this problem, such as utilizing the [Monte Carlo Approach](https://rpubs.com/zyLiu6707/arknights-pull-simulation) or running [Exploratory Data Analysis](https://rpubs.com/Frizu/arknightsgacha). In this post, I will attempt to construct a mathematical model via binomial distribution, offering another perspective on this intriguing problem.
 
 ![IL Siracusano Event Banner](https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png)<br>
 
@@ -200,10 +202,7 @@ Taking 35 as the average entry, since entries are whole numbers, and considering
 
 Additionally, I have created an **Arknights Pull Quantile** table:
 
-![img](/img/in-post/Ark-Quantile.png)
-<p align="center">
-The Arknights Pull Quantile
-</p>
+![The Arknights Pull Quantile](/img/in-post/Ark-Quantile.png)
 
 Using this table, I can determine my "luckiness" based on the number of entries. For example, in the IL Siracusano Event Banner,  where I obtained a six-star unit (Texalter) in 26 rolls, I am ranked in the top 40.86% within the player base. This means that I am luckier than approximately 60% of the gamer population. :)
 
