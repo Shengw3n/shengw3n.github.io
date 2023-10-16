@@ -17,7 +17,7 @@ This site is up and running thanks to the elegant [Fluid theme](https://hexo.flu
 
 Deploying blogs via GitHub Pages is a popular choice because it offers several advantages:
 * **Speed**: Website updates in less than a minute.
-* **Cost-Effective**: GitHub Pages are essentially free to use.
+* **Cost-Effective**: GitHub Pages are free to use.
 * **Simplicity**: You can create new blog posts via git commits.
 * **Markdown-Based**: We love markdown!
 
