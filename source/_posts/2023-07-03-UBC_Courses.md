@@ -1,11 +1,13 @@
 ---
 title: Guide to First-Year Engineering Courses at UBC
 tags: [UBC Engineering]
-index_img: /img/ubccourse.jpeg
+index_img: /img/banner/3_firstyearcourse.jpeg
+banner_img: /img/banner/3_firstyearcourse.jpeg
+excerpt: In the first year of engineering at UBC, all students take the same set of courses from the standard times table (STT). In this article, I will provide a comprehensive overview of each course, including its contents, difficulties, and potential challenges.
 date: 2023-07-03 12:00:00
 ---
 
-In the first year of engineering at UBC, all students take the same set of courses from the standard times table (STT). In this article, I will provide a comprehensive overview of each course, including its contents, difficulties, and potential challenges.
+> In the first year of engineering at UBC, all students take the same set of courses from the standard times table (STT). In this article, I will provide a comprehensive overview of each course, including its contents, difficulties, and potential challenges.
 
 Typically, your semester will follow a structure similar to the one outlined below, although some Standard Timetable (STT) variations may interchange PHYS 170 and APSC 160. It is recommended to aim for taking APSC 160 in the first semester and PHYS 170 in the second semester as indicated here. This is because Math 152, which is only offered in semester 2, helps you learn PHYS 170 contents better; and the coding skills learned in APSC 160 are useful in designing your claw for APSC 101 in term 2. 
 
