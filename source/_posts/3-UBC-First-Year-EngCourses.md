@@ -8,13 +8,13 @@ sticky: 100
 date: 2023-07-03 12:00:00
 ---
 
-> In the first year of engineering at UBC, all students take the same set of courses from the standard timestable (STT). In this article, I will provide a comprehensive overview of each course, including its contents, difficulties, and potential challenges.
+> In the first year of engineering at UBC, all students take the same set of courses from the standard times table (STT). In this article, I will provide a comprehensive overview of each course, including its contents, difficulties, and potential challenges.
 
 Typically, your semester will follow a structure similar to the one outlined below, although some Standard Timetable (STT) variations may interchange PHYS 170 and APSC 160. It is recommended to aim to take APSC 160 in the first semester and PHYS 170 in the second semester as indicated here. This is because Math 152, which is only offered in semester 2, helps you learn PHYS 170 contents better; and the coding skills learned in APSC 160 are useful in designing your claw for APSC 101 in term 2. 
 
 **Note:**  Most people take an English course (typically WRDS 150) and an arts elective during the first year. They are not included here because I had credits so I just skipped them. 
 
-**Another Note:** This is my experience taking first-year courses in the 2022-2023 year. It is important to recognize that curriculum changes can occur over time, and the specific courses you encounter may differ depending on when you access this information. For example, in our year, there were significant modifications in Math 100 and Math 101 compared to previous years. Therefore, it is essential to have a look at the most up-to-date curriculum and course offerings for accurate information about your specific academic year.
+**Another Note:** This is my experience taking first-year courses in the 2022-2023 year. Please note that curriculum changes can occur over time, and the specific courses you will take may vary based on the academic year you are in. For example, in our year, there were significant modifications in Math 100 and Math 101 compared to previous years. Therefore, it is essential to have a look at the most up-to-date curriculum and course offerings for accurate information about your specific academic year.
 
 ## General Advice
 I took IB Math HL and IB Physics HL so I learned a lot of content prior. The biggest jump for me is the amount of homework for every class. Sometimes it for real feels like there’s no time to study because we are just doing homework all day. Try not to skip every class like me and build a strong foundation throughout the year rather than cramming before exams.  The content is not hard in my opinion, there’s just a lot of content to cover in a relatively short amount of time.  Use [UBCGrades](https://ubcgrades.com) to check the averages for your classes to get a good understanding of the difficulty levels.
@@ -71,7 +71,7 @@ CHEM 154 is essentially Chemistry 12 on steroids. You learn some stoichiometry i
 	- 1 midterm and 1 final, some short answer questions and some long answers. 
 
 - Study Recommendations:
-	- Study early, do every workbook question and make sure you understand it after checking answers. You definitely can’t cram for this course there’s just too much content. 
+	- Begin your studies early, complete all workbook questions, and ensure a thorough understanding of the material after reviewing the answers.
 
 ### PHYS 157
 *Difficulty: ⭐⭐* 
@@ -92,7 +92,7 @@ Physics 157 teaches you about thermodynamics and waves and will be your first un
 ### APSC 160
 *Difficulty: ⭐* 
 
-Definitely the most enjoyable course in term 1. APSC 160 teaches you how to code in C and is the only flipped classroom in the first year ( you learn the material at home and the professor goes over the main points in class).  You do not need prior coding experiences to exceed in this course and watching your code run for the first time can be very exciting. Most of the class time is used for homework which means you have minimal workload at home and you can leave class fairly early once you finish.
+Definitely the most enjoyable course in the first term. APSC 160 teaches you how to code in C and is the only flipped classroom in the first year ( you learn the material at home and the professor goes over the main points in class).  You do not need prior coding experiences to exceed in this course and watching your code run for the first time can be very exciting. Most of the class time is used for homework which means you have minimal workload at home and you can leave class fairly early once you finish.
 - Workload:
 	- Weekly screencast and coding assignments
 
@@ -121,7 +121,7 @@ Math 101 teaches you how to do integration for the first half of the course and 
 
  Study Recommendations: 
 	- Same as MATH 100 
- 	- Math 101 has a lot less overlap with high school than Math 100, do CLP 2 questions for extra practice
+ 	- Math 101 has less overlap with high school material compared to Math 100, so it's beneficial to practice with CLP 2 questions for additional preparation.
 
 ### Math 152
 *Difficulty: ⭐⭐⭐⭐* 
@@ -174,7 +174,7 @@ One credit physics lab which teaches you the various experiment methods. Very hi
 	- No exam just one final lab writeup worth 20% of your grades
 
 -  Study Recommendation:
-	- Finish your experiment fast and write fast. Include as many details as you can and conduct more trials if there’s time for more accuracy. The TAs don’t really mark you based on your answer but on your process getting to your answer. 
+	- Finish your experiment fast and write fast. Include as much detail as possible and conduct more trials if there’s time for more accuracy. The TAs don’t really mark you based on your answer but on your process getting to your answer. 
 
 ### PHYS 170
 *Difficulty: ⭐⭐* 
