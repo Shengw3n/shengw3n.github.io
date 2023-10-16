@@ -25,7 +25,7 @@ In addition, good exam-taking skills are also vital. You need to be both fast an
 ### Math 100 
 *Difficulty: ⭐* 
 
-Math 100 teaches you how to do derivatives along with a little bit of optimization and multivariable calculus. If you did IB or AP like me this is essentially a review. Contents are much simpler than Math HL too. The multivariable calculus part was super hard and teaches you about saddle points, Newton’s law of cooling, and crazy year 2 math, but none of it showed up on any exams. 
+Math 100 teaches you how to do derivatives along with a little bit of optimization and multivariable calculus. If you did IB or AP like me this is essentially a review. Contents are much easier too. The multivariable calculus part was super hard and teaches you about saddle points, Newton’s law of cooling, and crazy year 2 math, but none of it showed up on any exams. 
 * Resources:
 	- [Textbook](https://personal.math.ubc.ca/~CLP/CLP1/)
 	- [Past Exams](https://secure.math.ubc.ca/Ugrad/pastExams/)
@@ -40,29 +40,29 @@ Math 100 teaches you how to do derivatives along with a little bit of optimizati
 
 - Study Recommendations:
 	- Make sure you can do the weekly math questions with ease.
-	- Grind past exams, practice exams, and review group assignments prior to finals.
-	- Group assignments are worth 20% of your entire grades and they mark it pretty harshly. Make sure someone in your group knows latex.
+	- Grind past/practice exams and review group assignments prior to finals.
+	- Group assignments are worth 20% of your final grade and they mark it very harshly. Make sure someone in your group knows latex.
 
 ### APSC 100/101
 *Difficulty: ⭐* 
 
-APSC 100 in term 1, and APSC 101 in term 2. Meme courses, teaches you the roles and responsibilities of an engineer and what an engineering design process might look like. You also gain hands on experience designing cardboard chairs and autonomous claws etc. It is a meme course because the exams are multiple choices only and all of the choices make sense. So at the end of the day it’s essentially a lottery game of who gets luckier on the exam. You’ll know what I’m talking about when you actually experience it yourself.
+APSC 100 in term 1, and APSC 101 in term 2. Meme courses teach you the roles and responsibilities of an engineer and what an engineering design process might look like. You also gain hands-on experience designing cardboard chairs, autonomous claws, etc. It is a meme course because the exams are multiple choices only and all of the choices make sense. So at the end of the day, it’s essentially a test on reading comprehension. You’ll know what I’m talking about when you actually experience it yourself.
 - Workload:
-	- Weekly screencast and online self-tests
-	- Monthly engineering projects (Cardboard chair competition, presentations, etc.)
-		- Some engineering projects, especially the Rainwater Treatment System in APSC 101, takes a really long time to complete. It all depends on how helpful your teammates are. 
+	- Weekly screencast and online quizzes
+	- Monthly engineering projects (Cardboard chair competition, bike lane design presentations, etc.)
+		- Some engineering projects, notably the Rainwater Treatment System in APSC 101, take a really long time to complete. It all depends on how helpful your teammates are. 
 
 - Exams:
-	- 1 midterm and 1 final,  all multiple choices. I have gotten better marks not studying than studying. Just make sure your reading comprehension is on point. They scale the exams really hard.
+	- 1 midterm and 1 final,  all multiple-choice. I have gotten better marks not studying than studying. Just make sure your reading comprehension is on point. They scale the exams really hard.
 
 - Study Recommendations:
-	- Watch the weekly modules carefully and do a couple practice exams prior to exams. A good nights sleep and not over thinking is sometimes more important.  A lot of it is honestly common sense. 
-	- Taking initiative in team management and keep your group organized is very important because the deadline for projects are often alongside midterms for your other classes and stress can quickly buildup.
+	- Watch the weekly modules carefully and do a couple of practice exams prior to exams. A good night's sleep and not overthinking is sometimes more important.  A lot of it is honestly common sense. 
+	- Taking initiative in team management and keeping your group organized is very important because the deadline for projects is often alongside midterms for your other classes and stress can quickly build up.
 
 ### CHEM 154
 *Difficulty: ⭐⭐⭐* 
 
-CHEM 154 is essentially chemistry 12 on steroids. You learn some stoichiometry in the beginning and slowly transition to equilibriums, thermodynamics, kinetics, and electrochemistry.  I am not very good at chemistry nor am I interested so the course felt very hard/tedious for me. Each unit by itself aren’t hard at all but there’s just too many units.
+CHEM 154 is essentially Chemistry 12 on steroids. You learn some stoichiometry in the beginning and slowly transition to equilibriums, thermodynamics, kinetics, and electrochemistry.  I am not very good at chemistry nor am I interested so the course felt very hard/tedious for me. Each unit by itself isn’t hard at all but there are just too many units.
 - Workload:
 	- Weekly workbook questions
 	- monthly lab writeup
@@ -71,18 +71,18 @@ CHEM 154 is essentially chemistry 12 on steroids. You learn some stoichiometry i
 	- 1 midterm and 1 final, some short answer questions and some long answers. 
 
 - Study Recommendations:
-	- Study early, do every workbook questions and make sure you understand it after checking answers. You definitely can’t cram for this course there’s just too much contents. 
+	- Study early, do every workbook question and make sure you understand it after checking answers. You definitely can’t cram for this course there’s just too much content. 
 
 ### PHYS 157
 *Difficulty: ⭐⭐* 
 
-Physics 157 teaches you about thermodynamics and waves and will be your first university level physics. You will learn that a heat engine is the exact opposite of a refrigerator and how waves can be used to measure space compressions. Honestly the hardness deserves a ⭐⭐⭐ but this goated [YouTube playlist](https://youtube.com/playlist?list=PLODFGtnlvFGdAWq9H3Y6UjyKqCwn6FzoG)exists. Professor Raamsdonk is the greatest.
+Physics 157 teaches you about thermodynamics and waves and will be your first university-level physics. You will learn that a heat engine is the exact opposite of a refrigerator and how waves can be used to measure space compressions. Honestly, the hardness deserves a ⭐⭐⭐ but this insane [YouTube playlist](https://youtube.com/playlist?list=PLODFGtnlvFGdAWq9H3Y6UjyKqCwn6FzoG)exists. Professor Raamsdonk is the goat.
 - Workload:
 	- Weekly reading quiz
-	- Weekly online Mastering Physics questions / written worksheet
+	- Weekly online Mastering Physics questions or written worksheets
 
 - Exams:
-	- 2 midterms and 1 final consisting of some multiple choices and some written questions. Multiple choices are worth a lot of marks and if you mess up just one you lose like 6% on the midterm. The final was pretty light though and perhaps that’s why our average this year was the highest.
+	- 2 midterms and 1 final consisting of some multiple-choice and some written questions. Multiple choices are worth a lot of marks and if you mess up just one you lose like 6% on the midterm. The final was pretty light though and perhaps that’s why our average this year was the highest compared to past years.
 
 - Study Recommendations:
 	- Watch Professor Raamsdonk ’s YouTube and fully understand it
@@ -92,21 +92,21 @@ Physics 157 teaches you about thermodynamics and waves and will be your first un
 ### APSC 160
 *Difficulty: ⭐* 
 
-Definitely the most enjoyable course in term 1. APSC 160 teaches you how to code in C and is the only flipped classroom in first year ( you learn the material at home and the prof goes over the main points in class).  You do not need prior coding experiences to exceed in this course and watching your code run for the first time can be very exciting. Most of the class time is used for homework which means you have minimal workload at home and you can leave class fairly early once you finish.
+Definitely the most enjoyable course in term 1. APSC 160 teaches you how to code in C and is the only flipped classroom in the first year ( you learn the material at home and the professor goes over the main points in class).  You do not need prior coding experiences to exceed in this course and watching your code run for the first time can be very exciting. Most of the class time is used for homework which means you have minimal workload at home and you can leave class fairly early once you finish.
 - Workload:
 	- Weekly screencast and coding assignments
 
 - Exams:
-	- 2 midterms and 1 final. First midterm easy second midterm hard and the final easy. Just make sure you can write code fast exam time is a bit tight.
+	- 2 midterms and 1 final. The first midterm was easy, the second midterm was hard, and the final was easy. Just make sure you can write code fast because the exam is a bit tight on time.
 
 - Study Recommendations:
-	- Watch screencast and code assignment on time and by yourself. 
+	- Watch the screencast and do the code assignments on time and by yourself. 
 
 ## Semester 2
 ### Math 101
 *Difficulty: ⭐⭐⭐* 
 
-Math 101 teaches you how to do integration for the first half of the course and series for the second half . The integration part was a review from IB but definitely not the series part. 
+Math 101 teaches you how to do integration for the first half of the course and series for the second half. The integration part was a review from IB but definitely not the series part. 
 * Resources:
 	- [Textbook](https://personal.math.ubc.ca/~CLP/CLP2/)
 	- [Past Exams](https://secure.math.ubc.ca/Ugrad/pastExams/)
@@ -117,16 +117,16 @@ Math 101 teaches you how to do integration for the first half of the course and 
 	- 5 written group assignments
 
 - Exams:
-	- Only 1 final worth 50%, consisting of 10 easy questions and 3-4 hard questions. The past exams were not that helpful given the amount of curriculum change this year.
+	- No midterms and 1 final worth 50%, consisting of 10 easy questions and 3-4 hard questions. The past exams were not very useful given the large amount of curriculum change this year.
 
  Study Recommendations: 
 	- Same as MATH 100 
- 	- Math 101 has a lot less overlap with highschool than math 100, do CLP 2 questions for extra practice
+ 	- Math 101 has a lot less overlap with high school than Math 100, do CLP 2 questions for extra practice
 
 ### Math 152
 *Difficulty: ⭐⭐⭐⭐* 
 
-Math 152 teaches you linear systems, which is very important in understanding PHYS 170 and ultimately mechanics. The first half consists of vectors and matrices and were much easier than IB Math HL. The second half consist of eigenvalues and matrix algebra and are all difficult conceptually.  You also learn Matlab basics throughout the course. If you have not studied vectors and planes before I suggest you start learning a bit prior to the start of the course, especially if you are not good at imagining 3D planes. A lot of my friends had trouble understanding at first.
+Math 152 teaches you linear systems, which is very important in understanding PHYS 170 and ultimately mechanics. The first half consisted of vectors and matrices and was much easier than IB Math HL. The second half consists of eigenvalues and matrix algebra which are all difficult conceptually.  You also learn Matlab basics throughout the course. If you have not studied vectors and planes before I suggest you start learning a bit prior to the start of the course, especially if you are not good at imagining 3D planes. A lot of my friends had trouble understanding at first.
 
  - Resources:
 	- [Past Exams](https://secure.math.ubc.ca/Ugrad/pastExams/)
@@ -145,10 +145,10 @@ Math 152 teaches you linear systems, which is very important in understanding PH
 ### PHYS 158
 *Difficulty: ⭐⭐⭐⭐⭐* 
 
-The hardest course in first year.  PHYS 158 teaches you circuits and magnetism. There are a lot of contents and they are all not easy, so definitely start studying early.  Even if you did horrible on your first 2 midterms, don’t give up because if you did well in the final the prof replaces your final course grade with your final exam grade. (**Note**: this is true for my year I’m not sure about yours)
+The hardest course in the first year.  PHYS 158 teaches you circuits and magnetism. There are **a lot** of contents and none of them are easy, so definitely start studying early.  Even if you did horrible on your first 2 midterms, don’t give up because if you did well in the final the professor replaces your final course grade with your final exam grade. (**Note**: this is true for my year I’m not sure about yours)
 
  - Resources:
-	- Watch this [Youtube Channel](https://www.youtube.com/@MichelvanBiezen/featured)  on any topic you don’t understand
+	- Watch this goated [Youtube Channel](https://www.youtube.com/@MichelvanBiezen/featured) on any topic you don’t understand
 
 - Workload:
 	- Weekly reading quiz
@@ -158,13 +158,13 @@ The hardest course in first year.  PHYS 158 teaches you circuits and magnetism. 
 	- 2 midterms and 1 final they are all very brutal
 
 - Study Recommendation:
-	- Learn material early and fully understand mastering physics and written homework problems. They will be hard but do it on your own because it is far better getting bad marks on assignments than bombing the exams which are worth almost 80% of your grades. 
-	- Make sure you fully understand all the written-out examples in the textbook. They are pretty similar to the questions you will see in your exams. 
+	- Learn material early and fully understand mastering physics and written homework problems. They will be hard but do it on your own because it is far better getting bad marks on assignments than bombing the exams which are worth almost 80% of your final grade. 
+	- Make sure you fully understand all the written examples in the textbook. They are pretty similar to the questions you will see in your exams. 
 
 ### PHYS 159
 *Difficulty: ⭐* 
 
-One credit physics lab which teaches you the various experiment methods. Very high class average with low workload given that most of the work is done in class time. To exceed in this course you need to understand what the TAs marking want from you, which is a clear lab report that includes all the criterias.  Getting a good lab partner also helps a lot. 
+One credit physics lab which teaches you the various experiment methods. Very high class average with low workload given that most of the work is done in class time. To excel in this course you need to understand what the TAs marking want from you, which is a clear lab report that includes all the criteria.  Getting a good lab partner also helps a lot. 
 
 - Workload:
 	- Weekly lab quiz
@@ -174,12 +174,12 @@ One credit physics lab which teaches you the various experiment methods. Very hi
 	- No exam just one final lab writeup worth 20% of your grades
 
 -  Study Recommendation:
-	- Finish your experiment fast and write fast. Include as many details as you can and conduct more trails if there’s time for more accuracy. The TAs don’t really mark you based on your answer but your process getting to your answer. 
+	- Finish your experiment fast and write fast. Include as many details as you can and conduct more trials if there’s time for more accuracy. The TAs don’t really mark you based on your answer but on your process getting to your answer. 
 
 ### PHYS 170
 *Difficulty: ⭐⭐* 
 
-PHYS 170 teaches you how to draw free body diagrams and calculate the different forces within it. It is not too hard because the questions on the exam are very similar to past exams. There’s only a few types of problems and once you grind some you basically seen it all.
+PHYS 170 teaches you how to draw free-body diagrams and calculate the different forces within them. It is not too hard because the questions on the exam are very similar to past exams. There are only a few types of problems and once you grind some you basically see it all.
 
 -  Workload:
 	- Weekly mastering physics 
@@ -189,7 +189,7 @@ PHYS 170 teaches you how to draw free body diagrams and calculate the different 
 	- One midterm and one final worth 90% of your grades
 
 - Study Recommendation:
-	- Learn to draw nice free body diagrams and start studying early. 
+	- Learn to draw nice free-body diagrams and start studying early. 
 
 - - - -
  And that’s it! Try your best and have fun : )
