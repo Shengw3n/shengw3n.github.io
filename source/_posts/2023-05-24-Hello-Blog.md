@@ -7,6 +7,7 @@ excerpt: Welcome to my blog! :)
 date: 2023-05-24 12:00:00
 ---
 <p class="note note-success">”Commit changes...”</p>
+
 And so begins Steven’s Blog.
 
 I've been contemplating creating a blog for some time now, centred around my life as an engineering student and highlighting the projects I've been diligently working on. The summer before the second year seems like the perfect opportunity to embark on this endeavour.
