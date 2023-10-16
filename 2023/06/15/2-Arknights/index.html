@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
 <meta property="article:published_time" content="2023-06-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2023-10-16T04:55:08.592Z">
+<meta property="article:modified_time" content="2023-10-16T05:01:26.028Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Math">
 <meta property="article:tag" content="Gaming">
@@ -336,15 +336,15 @@
                 <blockquote>
 <p>This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single <strong>random</strong> 6-star character in the mobile game Arknights. Feel free to utilize the provided catalog on the right-hand side to navigate to the specific sections that pique your interest.</p>
 </blockquote>
-<h2 id="What-is-Arknights"><a href="#What-is-Arknights" class="headerlink" title="What is Arknights"></a>What is Arknights</h2><p>Arknights is a popular mobile tower defense game where players take on the role of a “Doctor” leading a team of unique operators to defend against threats in a dystopian world. </p>
+<h2 id="What-is-Arknights"><a href="#What-is-Arknights" class="headerlink" title="What is Arknights"></a>What is Arknights</h2><p>Arknights<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="[Arknights](https://www.arknights.global)">[1]</span></a></sup> is a popular mobile tower defense game where players take on the role of a “Doctor” leading a team of unique operators to defend against threats in a dystopian world. </p>
 <p>The game incorporates a gacha system that revolves around acquiring new operators through randomized draws, each with designated probabilities. Operators are categorized by their star ratings, with 6-star operators considered the most powerful and 1-star operators the least. The probability of obtaining a 6-star operator stands at 2% per entry by default, although exceptions may apply as detailed below:</p>
 <p>In-game description of the pity system:</p>
-<p class="note note-info">If you do not roll a 6-star operator after 50 rolls, the probability of obtaining a 6-star Operator on the next roll will be increased from **2%** to **4%**. If you still do not roll a 6-star Operator, the probability of obtaining a 6-star Operator on the next row will be further increased from **4%** to **6%**, and this process repeats until a maximum probability of **100%**, at which point you are guaranteed to receive a 6-star Operator.</p>
+<p class="note note-info">'If you do not roll a 6-star operator after 50 rolls, the probability of obtaining a 6-star Operator on the next roll will be increased from **2%** to **4%**. If you still do not roll a 6-star Operator, the probability of obtaining a 6-star Operator on the next row will be further increased from **4%** to **6%**, and this process repeats until a maximum probability of **100%**, at which point you are guaranteed to receive a 6-star Operator.'</p>
 
 <h2 id="What-is-the-problem"><a href="#What-is-the-problem" class="headerlink" title="What is the problem?"></a>What is the problem?</h2><p>We know the probability of obtaining a six-star unit in Arknights upon each individual roll, but <strong>we do not know the expected number of rolls required to obtain a six-star unit</strong>.</p>
 <p>Knowing the expected value of obtaining a six-star is important because players needs to determine the amount of Orundum (Arknights’ Gacha currency) they need to accumulate prior to event banners in order to safely secure their desired operators. This question is increasingly relevant, particularly with the recent launch of the Limited Event “IL Siracusano”. </p>
 <p>Numerous attempts have been made to tackle this problem, such as utilizing the <a target="_blank" rel="noopener" href="https://rpubs.com/zyLiu6707/arknights-pull-simulation">Monte Carlo Approach</a> or running <a target="_blank" rel="noopener" href="https://rpubs.com/Frizu/arknightsgacha">Exploratory Data Analysis</a>. In this post, I will attempt to construct a mathematical model that can be employed to determine this average, offering another perspective on this intriguing problem.</p>
-<p><img src="https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png" srcset="/img/loading.gif" lazyload><br><br>Image Source：<a target="_blank" rel="noopener" href="https://gamepress.gg/arknights/event-banner-hub/il-siracusano-global-event-page">IL Siracusano Event Banner</a></p>
+<p><img src="https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png" srcset="/img/loading.gif" lazyload alt="IL Siracusano Event Banner"><br></p>
 <h2 id="Modeling-the-1st-to-50th-Entry"><a href="#Modeling-the-1st-to-50th-Entry" class="headerlink" title="Modeling the 1st to 50th Entry"></a>Modeling the 1st to 50th Entry</h2><p>To establish our model, it’s important to consider that we are guaranteed to obtain a six-star unit by the 99th entry as our success rate will have increased to 100% by that point. Therefore, our focus lies within the range of the 1st to 99th entries, as our objective is to secure a single 6-star Operator. </p>
 <p>For the 1st to 50th entry, there is a fixed success rate of 2% per entry, indicating a clear manifestation of a binomial distribution.</p>
 <blockquote>
