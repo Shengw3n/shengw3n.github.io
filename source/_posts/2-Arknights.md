@@ -4,7 +4,7 @@ tags: [Math, Gaming]
 index_img: /img/banner/2_arknights.jpeg
 banner_img: /img/banner/2_arknights.jpeg
 math: true
-excerpt: This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single **random** 6-star character in the mobile game Arknights.
+excerpt: Employing mathematical modeling to estimate the expected number of pulls required to obtain a single 6-star character in the popular mobile game Arknights.
 date: 2023-06-15 12:00:00
 ---
 
