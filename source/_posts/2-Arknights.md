@@ -94,19 +94,19 @@ $P(99)=1 \times 0.02 \times 0.04 \times 0.06 \times \ldots \times 0.94 \times 0.
 From the derived equations, we can extract the probability of success component as follows:
 
 <p align="center">
-(0.02+0.02(n-50)), \quad 51 \leq n \leq 99
+$(0.02+0.02(n-50)), \quad 51 \leq n \leq 99$
 </p>
 
 Simplifying to: 
 
 <p align="center">
-0.02(n-49), \quad 51 \leq n \leq 99
+$0.02(n-49), \quad 51 \leq n \leq 99$
 </p>
 
 The probability of failure component can be expressed as a product of an arithmetic series, where the probability of failure decreases by 0.02 for each subsequent roll. Following the formula for the product of an arithmetic series:
 
 <p align="center">
-\prod_{k=0}^{n-1}\left(c_{1}-k d\right)
+$\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
 </p>
 
 Here, $n$ represents the number of rolls, $c1$ is the first term, and $d$ is the common difference. In our case, $k$ will be 51 since our function starts from the 51st roll, $c_{1}$ will be 0.98, and $d$ will be -0.02. Therefore, the probability of failure component in our function is derived as:
@@ -134,6 +134,7 @@ With this clarification, our mathematical model is now complete:
 $$
 P(n) = \begin{cases}
     0.02 \times 0.98^{n-1}, & \text{if } 1 \leq n \leq 50 \\
+    
     0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02k), & \text{if } 50 < n \leq 99
 \end{cases}
 $$
