@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
 <meta property="article:published_time" content="2023-06-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2023-10-16T06:34:40.062Z">
+<meta property="article:modified_time" content="2023-10-16T06:40:33.475Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Math">
 <meta property="article:tag" content="Gaming">
@@ -409,7 +409,7 @@ $\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
 <p>$$<br>P(n)&#x3D;0.02(n-49) \times 0.98^{50} \times \prod_{k&#x3D;51}^{n-1}(1.98-0.02 k), \quad 50&lt;n \leq 99<br>$$</p>
 <p>It is important to note that the power notation is structured in a way that for the 51st roll, the initial roll is 51, and the number of rolls is 50. This arrangement results in a value of 1, which is intentionally set up as our probability of failure component for the 51st roll is only $0.98^{50}$.</p>
 <p>With this clarification, our mathematical model is now complete:</p>
-<p>$$<br>P(n) &#x3D; \begin{cases}<br>    0.02 \times 0.98^{n-1}, &amp; \text{if } 1 \leq n \leq 50 \<br>    0.02(n-49) \times 0.98^{50} \times \prod_{k&#x3D;51}^{n-1}(1.98-0.02k), &amp; \text{if } 50 &lt; n \leq 99<br>\end{cases}<br>$$</p>
+<p>$$<br>P(n) &#x3D;<br>\begin{cases}<br>    0.02 \times 0.98^{n-1}, &amp; \text{if } 1 \leq n \leq 50 \<br>    0.02(n-49) \times 0.98^{50} \times \prod_{k&#x3D;51}^{n-1}(1.98-0.02k), &amp; \text{if } 50 &lt; n \leq 99<br>\end{cases}<br>$$</p>
 <h2 id="Graphing-the-Model"><a href="#Graphing-the-Model" class="headerlink" title="Graphing the Model"></a>Graphing the Model</h2><p>We can create a graph to provide a visual representation of the Arknights character pulling model:</p>
 <p><img src="/img/in-post/Ark-Model.png" srcset="/img/loading.gif" lazyload alt="The Arknights Character Pulling Model"></p>
 <p>This graph demonstrates the probability of obtaining a six-star unit on the $n^{th}$ roll. Examining the graph, we observe that the initial probability of obtaining a six-star is 2%, which serves as our base probability. As subsequent rolls are considered, the probability gradually decreases. This decline is expected, as it indicates that all previous rolls leading up to the successful pull were unsuccessful. The downward trend persists until the 50th roll, where the probability reaches 0.74%.</p>
