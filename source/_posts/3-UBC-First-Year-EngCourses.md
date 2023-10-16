@@ -92,7 +92,7 @@ Physics 157 teaches you about thermodynamics and waves and will be your first un
 ### APSC 160
 *Difficulty: ⭐* 
 
-Definitely the most enjoyable course in the first term. APSC 160 teaches you how to code in C and is the only flipped classroom in the first year ( you learn the material at home and the professor goes over the main points in class).  You do not need prior coding experiences to exceed in this course and watching your code run for the first time can be very exciting. Most of the class time is used for homework which means you have minimal workload at home and you can leave class fairly early once you finish.
+Definitely the most enjoyable course in the first term. APSC 160 teaches you how to code in C and is the only flipped classroom in the first year (you learn the material at home and the professor goes over the main points in class).  You do not need prior coding experiences to exceed in this course and watching your code run for the first time can be very exciting. Most of the class time is used for homework which means you have minimal workload at home and you can leave class fairly early once you finish.
 - Workload:
 	- Weekly screencast and coding assignments
 
