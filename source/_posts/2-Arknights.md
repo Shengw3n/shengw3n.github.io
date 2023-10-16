@@ -120,35 +120,26 @@ $$
 
 The notation $k − 50$ indicates that we are treating the 51st entry as the first entry in our equation for the 51st to 99th entries. This notation can be simplified as follows:
 
-<p align="center">
-$\prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99$
-</p>
+$$
+\prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99$
+$$
 
 Combining each component, we can arrive at the final form of our function for the 51st to 99th entries:
 
-<p align="center">
-$P(n)=0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99$
-</p>
+$$
+P(n)=0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99
+$$
 	
 It is important to note that the power notation is structured in a way that for the 51st entry, the initial entry is 51, and the number of entries is 50. This arrangement results in a value of 1, which is intentionally set up as our probability of failure component for the 51st entry is only $0.98^{50}$.
 
 With this clarification, our mathematical model is now complete:
 
-<p align="center">
-$
+$$
 P(n)=\left\{\begin{array}{c}
 0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50 \\
 0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99
 \end{array}\right.
-$
-</p>
-
-\[
-P(n) = \begin{cases}
-0.02 \times 0.98^{n-1}, & \text{if } 1 \leq n \leq 50 \\
-0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02k), & \text{if } 50 < n \leq 99
-\end{cases}
-\]
+$$
 
 ## Graphing the Model
 We can create a graph to provide a visual representation of the Arknights character pulling model:
