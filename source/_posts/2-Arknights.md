@@ -11,12 +11,12 @@ date: 2023-06-15 12:00:00
 > This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single **random** 6-star character in the mobile game Arknights. Feel free to utilize the provided catalog on the right-hand side to navigate to the specific sections that pique your interest.
 
 ## What is Arknights
-Arknights is a popular mobile tower defense game where players take on the role of a “Doctor” leading a team of unique operators to defend against threats in a dystopian world. 
+Arknights[^1] is a popular mobile tower defense game where players take on the role of a “Doctor” leading a team of unique operators to defend against threats in a dystopian world. 
 
 The game incorporates a gacha system that revolves around acquiring new operators through randomized draws, each with designated probabilities. Operators are categorized by their star ratings, with 6-star operators considered the most powerful and 1-star operators the least. The probability of obtaining a 6-star operator stands at 2% per entry by default, although exceptions may apply as detailed below:
 
 In-game description of the pity system:
-<p class="note note-info">If you do not roll a 6-star operator after 50 rolls, the probability of obtaining a 6-star Operator on the next roll will be increased from **2%** to **4%**. If you still do not roll a 6-star Operator, the probability of obtaining a 6-star Operator on the next row will be further increased from **4%** to **6%**, and this process repeats until a maximum probability of **100%**, at which point you are guaranteed to receive a 6-star Operator.</p>
+<p class="note note-info">'If you do not roll a 6-star operator after 50 rolls, the probability of obtaining a 6-star Operator on the next roll will be increased from **2%** to **4%**. If you still do not roll a 6-star Operator, the probability of obtaining a 6-star Operator on the next row will be further increased from **4%** to **6%**, and this process repeats until a maximum probability of **100%**, at which point you are guaranteed to receive a 6-star Operator.'</p>
 
 ## What is the problem?
 We know the probability of obtaining a six-star unit in Arknights upon each individual roll, but **we do not know the expected number of rolls required to obtain a six-star unit**.
@@ -25,8 +25,7 @@ Knowing the expected value of obtaining a six-star is important because players 
 
 Numerous attempts have been made to tackle this problem, such as utilizing the [Monte Carlo Approach](https://rpubs.com/zyLiu6707/arknights-pull-simulation) or running [Exploratory Data Analysis](https://rpubs.com/Frizu/arknightsgacha). In this post, I will attempt to construct a mathematical model that can be employed to determine this average, offering another perspective on this intriguing problem.
 
-![](https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png)<br>
-Image Source：[IL Siracusano Event Banner](https://gamepress.gg/arknights/event-banner-hub/il-siracusano-global-event-page)
+![IL Siracusano Event Banner](https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png)<br>
 
 ## Modeling the 1st to 50th Entry
 To establish our model, it’s important to consider that we are guaranteed to obtain a six-star unit by the 99th entry as our success rate will have increased to 100% by that point. Therefore, our focus lies within the range of the 1st to 99th entries, as our objective is to secure a single 6-star Operator. 
