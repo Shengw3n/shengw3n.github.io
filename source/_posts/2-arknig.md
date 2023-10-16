@@ -6,7 +6,7 @@ date:       2023-06-15 12:00:00
 author:     "Steven"
 header-img: "img/arknights.png"
 catalog:    true
-mathjax: true
+math: true
 tags:
     - Math
     - Gaming
