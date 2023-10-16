@@ -12,8 +12,6 @@ And so begins Steven’s Blog.
 
 I've been contemplating creating a blog for some time now, centred around my life as an engineering student and highlighting the projects I've been diligently working on. The summer before the second year seems like the perfect opportunity to embark on this endeavour.
 
----
-
 # How the blog is made
 This site is up and running thanks to the elegant [Fluid theme](https://hexo.fluid-dev.com/docs/en/) for the static [Hexo framework](https://hexo.io/index.html), and it's deployed via [GitHub Pages](https://pages.github.com/).
 
