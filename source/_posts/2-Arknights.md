@@ -134,14 +134,11 @@ It is important to note that the power notation is structured in a way that for 
 With this clarification, our mathematical model is now complete:
 
 $$
-P(n) = \left\{
-  \begin{array}{c}
-    0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50 \\
-    0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02k), \quad 50<n \leq 99
-  \end{array}
-\right.
+P(n) = \begin{cases}
+    0.02 \times 0.98^{n-1}, & \text{if } 1 \leq n \leq 50 \\
+    0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02k), & \text{if } 50 < n \leq 99
+\end{cases}
 $$
-
 
 ## Graphing the Model
 We can create a graph to provide a visual representation of the Arknights character pulling model:
@@ -152,7 +149,7 @@ This graph demonstrates the probability of obtaining a six-star unit on the $n^{
 
 At the 51st roll, the pity system activates, resulting in an upward slope. This upward slope indicates that the pity system is functioning as intended, offering higher probabilities for obtaining a six-star unit. The peak probability of 3.35% occurs at the 56th roll. Following this peak, the probability gradually declines, reflecting the impact of the pity system and previous successful rolls.
 
-Notably, reaching the 99th roll without obtaining a six-star unit is highly unlikely, with a probability close to 0. Conclusively, most players will achieve success before reaching the later stages of the character pulling system. However, it’s worth noting that the 56th roll, despite having the highest probability, **does not** represent the average roll amount we are seeking.
+Notably, reaching the 99th roll without obtaining a six-star unit is highly unlikely, with a probability close to 0. Conclusively, most players will achieve success before reaching the later stages of the character pulling system. However, it’s worth noting that the 56th roll, despite having the highest probability, **does not** represent the average roll number we are seeking.
 
 ## Solution 1: Cumulative Probability
 One approach to determining the average number of rolls required to obtain one six-star unit is to calculate the cumulative probability based on the aforementioned model. The cumulative probability at 50% can serve as an indicator of the average roll, as it signifies that half of the player base has already achieved success in obtaining one six-star unit.
