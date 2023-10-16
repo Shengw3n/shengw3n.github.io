@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
 <meta property="article:published_time" content="2023-06-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2023-10-16T06:43:50.031Z">
+<meta property="article:modified_time" content="2023-10-16T06:47:55.506Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Math">
 <meta property="article:tag" content="Gaming">
@@ -355,25 +355,24 @@
 <li>A constant probability of success throughout</li>
 </ol>
 <p>The binomial distribution equation is expressed as:</p>
-<p>$$<br>$P_{x}&#x3D;\left(\begin{array}{l}n \ x\end{array}\right) p^{x} q^{n-x}$<br>$$</p>
+<p>$$<br>P_{x}&#x3D;\left(\begin{array}{l}n \ x\end{array}\right) p^{x} q^{n-x}<br>$$</p>
 <p>where $P$ represents the binomial probability. In our case, we are interested in determining the average number of rolls required to obtain a single six-star unit, so $x$ is set to 1. The probability of success on a single roll $p$ is 2%, while the probability of failure $q$ is 98%. The number of trials $n$ is confined to the range of 1 to 50, as we are focusing on the 1st to 50th rolls exclusively. By defining all these variables, we have completed the formulation of our binomial distribution equation:</p>
-<p>$$<br>$P_{1 \text { six star }}&#x3D;\mathrm{n} \times 0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50$<br>$$</p>
+<p>$$<br>P_{1 \text { six star }}&#x3D;\mathrm{n} \times 0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50<br>$$</p>
 <p>However, $P$ in the binomial distribution equation represents the probability of obtaining a six-star unit within any of the $n$ trials. This is not aligned with our objective, as we are specifically interested in the probability of obtaining a six-star unit at the $n$ th roll alone, assuming all previous rolls have failed. The order of selection is crucial here because our calculation concludes as soon as we secure a single six-star unit. Consequently, we need to adjust our equation by dividing it by $n$ to account for only one combination being considered:</p>
-<p>$$<br>$P_{1 \text { six star on the nth roll only }}&#x3D;\mathrm{n} \div \mathrm{n} \times 0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50$<br>$$</p>
+<p>$$<br>P_{1 \text { six star on the nth roll only }}&#x3D;\mathrm{n} \div \mathrm{n} \times 0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50<br>$$</p>
 <p>By simplifying and expressing the equation as a function, we obtain:</p>
-<p>$$<br>$P(n)&#x3D;0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50$<br>$$</p>
+<p>$$<br>P(n)&#x3D;0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50<br>$$</p>
 <h2 id="Modeling-the-51st-to-99th-Roll"><a href="#Modeling-the-51st-to-99th-Roll" class="headerlink" title="Modeling the 51st to 99th Roll"></a>Modeling the 51st to 99th Roll</h2><p>For the 51st to 99th roll, our success rate progressively increases by 2% per roll. This means that the 51st roll has a 4% success rate, the 52nd roll has a 6% success rate, and so on, until reaching the 99th roll with a success rate of 100%.</p>
 <p>Since the success rate is no longer fixed, we need to transition away from using the binomial distribution as our model. Given my limited knowledge and unfamiliarity with any theorems regarding scenarios with changing probabilities, it is evident that we need to devise our own function to effectively model this situation.</p>
 <p>Considering the fixed increase in success rate, it is highly probable that there exists a discernible relationship when evaluating the probability of each individual roll. As the success rate remains fixed on an individual roll basis, we can effectively employ the binomial distribution to calculate the probability of obtaining a six-star unit with each roll.</p>
-<p>Let’s start with the 51st roll. Referring to our function for the 1st to 50th roll, our $x$ value along with our number of combinations remains constant. Our probability of success $p$ will be set to</p>
-<p> 4% as mentioned before. However, our probability of failure $q$ will not be set to 96%. If we set $q$ to 96%, we are stating that the probability of failure for all rolls before 51st is 96%, which is not true. Referring to our binomial function for the 1st to 50th roll $P(n)&#x3D;$ $0.02 \times 0.98^{n-1}$, we notice that we only apply our failure probability for $n-1$ rolls. Applying the same concept for the 51st term, we are only concerned with the probability of failure for the 1st to 50th term. Since the probability of failure is constant for the 1st to 50th term, our probability of failure component of the 51st roll is $0.98^{50}$. After defining all our variables, our equation of the 51st roll is complete:</p>
+<p>Let’s start with the 51st roll. Referring to our function for the 1st to 50th roll, our $x$ value along with our number of combinations remains constant. Our probability of success $p$ will be set to 4% as mentioned before. However, our probability of failure $q$ will not be set to 96%. If we set $q$ to 96%, we are stating that the probability of failure for all rolls before 51st is 96%, which is not true. Referring to our binomial function for the 1st to 50th roll $P(n)&#x3D;$ $0.02 \times 0.98^{n-1}$, we notice that we only apply our failure probability for $n-1$ rolls. Applying the same concept for the 51st term, we are only concerned with the probability of failure for the 1st to 50th term. Since the probability of failure is constant for the 1st to 50th term, our probability of failure component of the 51st roll is $0.98^{50}$. After defining all our variables, our equation of the 51st roll is complete:</p>
 <p align="center">
-$P(51)=0.04 \times 0.98^{50}$
+P(51)=0.04 \times 0.98^{50}
 </p>
 
 <p>Moving on to the 52nd term, the probability of success increases to 6%. As for the probability of failure, we apply the same principle of calculating it only for the $n-1$ rolls. Consequently, we arrive at a value of 0.96 multiplied by $0.98^{50}$. The 0.96 represents the probability of failure for the 51st roll, while $0.98^{50}$ refers to the probability of failure for the 1st to 50th rolls. With all variables defined, the equation for the 52nd roll is now complete:</p>
 <p align="center">
-$P(52)=0.06 \times 0.96 \times 0.98^{50}$
+P(52)=0.06 \times 0.96 \times 0.98^{50}
 </p>
 
 <p>Following the same procedure: </p>
@@ -388,17 +387,17 @@ $P(99)=1 \times 0.02 \times 0.04 \times 0.06 \times \ldots \times 0.94 \times 0.
 
 <p>From the derived equations, we can extract the probability of success component as follows:</p>
 <p align="center">
-$(0.02+0.02(n-50)), \quad 51 \leq n \leq 99$
+(0.02+0.02(n-50)), \quad 51 \leq n \leq 99
 </p>
 
 <p>Simplifying to: </p>
 <p align="center">
-$0.02(n-49), \quad 51 \leq n \leq 99$
+0.02(n-49), \quad 51 \leq n \leq 99
 </p>
 
 <p>The probability of failure component can be expressed as a product of an arithmetic series, where the probability of failure decreases by 0.02 for each subsequent roll. Following the formula for the product of an arithmetic series:</p>
 <p align="center">
-$\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
+\prod_{k=0}^{n-1}\left(c_{1}-k d\right)
 </p>
 
 <p>Here, $n$ represents the number of rolls, $c1$ is the first term, and $d$ is the common difference. In our case, $k$ will be 51 since our function starts from the 51st roll, $c_{1}$ will be 0.98, and $d$ will be -0.02. Therefore, the probability of failure component in our function is derived as:</p>
@@ -409,7 +408,7 @@ $\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
 <p>$$<br>P(n)&#x3D;0.02(n-49) \times 0.98^{50} \times \prod_{k&#x3D;51}^{n-1}(1.98-0.02 k), \quad 50&lt;n \leq 99<br>$$</p>
 <p>It is important to note that the power notation is structured in a way that for the 51st roll, the initial roll is 51, and the number of rolls is 50. This arrangement results in a value of 1, which is intentionally set up as our probability of failure component for the 51st roll is only $0.98^{50}$.</p>
 <p>With this clarification, our mathematical model is now complete:</p>
-<p>$$<br>P(n) &#x3D; 0.02 \times<br>\begin{cases}<br>    0.98^{n-1}, &amp; \text{if } 1 \leq n \leq 50 \<br>    (n-49) \times 0.98^{50} \times \prod_{k&#x3D;51}^{n-1}(1.98-0.02k), &amp; \text{if } 50 &lt; n \leq 99<br>\end{cases}<br>$$</p>
+<p>$$<br>P(n) &#x3D; \begin{cases}<br>    0.02 \times 0.98^{n-1}, &amp; \text{if } 1 \leq n \leq 50 \<br>    0.02(n-49) \times 0.98^{50} \times \prod_{k&#x3D;51}^{n-1}(1.98-0.02k), &amp; \text{if } 50 &lt; n \leq 99<br>\end{cases}<br>$$</p>
 <h2 id="Graphing-the-Model"><a href="#Graphing-the-Model" class="headerlink" title="Graphing the Model"></a>Graphing the Model</h2><p>We can create a graph to provide a visual representation of the Arknights character pulling model:</p>
 <p><img src="/img/in-post/Ark-Model.png" srcset="/img/loading.gif" lazyload alt="The Arknights Character Pulling Model"></p>
 <p>This graph demonstrates the probability of obtaining a six-star unit on the $n^{th}$ roll. Examining the graph, we observe that the initial probability of obtaining a six-star is 2%, which serves as our base probability. As subsequent rolls are considered, the probability gradually decreases. This decline is expected, as it indicates that all previous rolls leading up to the successful pull were unsuccessful. The downward trend persists until the 50th roll, where the probability reaches 0.74%.</p>
@@ -421,7 +420,7 @@ $\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
 $\text { Cumulative Probability }=\sum_{i=1}^{n} P(i), \quad 1 \leq n \leq 99$
 </p>
 
-<p>Graphically representing this equation provides further clarity:<br><img src="/img/in-post/Ark-Cumu-Model.png" srcset="/img/loading.gif" lazyload alt="Arknights Cumulative Probability Model"></p>
+<p>Graphically representing this equation provides further clarity:<br><img src="/img/in-post/Ark-Cumu-Model.png" srcset="/img/loading.gif" lazyload alt="The Arknights Cumulative Probability Model"></p>
 <p>Upon analyzing the graph, it becomes evident that the cumulative probability reaches 100% at the 99th roll, affirming the accuracy of our equation and model. This validates that the individual probabilities for each roll were calculated correctly, resulting in a cumulative sum of 100%.</p>
 <p>Additionally, the slope of the graph increases notably after the 50th roll, indicating a higher rate of players successfully obtaining a six-star unit due to the implementation of the pity system.</p>
 <p>At the <strong>35th roll</strong>, the cumulative probability stands at 50.69%. This figure represents the average number of rolls required with 50% denoting the point at which half of the player base is expected to have achieved success in obtaining a six-star unit.</p>
