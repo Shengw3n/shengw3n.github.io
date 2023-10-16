@@ -134,7 +134,8 @@ It is important to note that the power notation is structured in a way that for 
 With this clarification, our mathematical model is now complete:
 
 $$
-P(n) = \begin{cases}
+P(n) = 
+\begin{cases}
     0.02 \times 0.98^{n-1}, & \text{if } 1 \leq n \leq 50 \\
     0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02k), & \text{if } 50 < n \leq 99
 \end{cases}
