@@ -27,7 +27,7 @@ Numerous attempts have been made to tackle this problem, such as utilizing the [
 
 ![IL Siracusano Event Banner](https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png)
 
-## Modeling the 1st to 50th roll
+## Modeling the 1st to 50th Roll
 To establish our model, it’s important to consider that we are guaranteed to obtain a six-star unit by the 99th roll as our success rate will have increased to 100% by that point. Therefore, our focus lies within the range of the 1st to 99th rolls, as our objective is to secure a single 6-star Operator.
 
 To apply the binomial distribution, we must ensure that four conditions are met:
@@ -61,7 +61,7 @@ $P(n)=0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50$
 $$
 
 
-## Modeling the 51st to 99th roll
+## Modeling the 51st to 99th Roll
 For the 51st to 99th roll, our success rate progressively increases by 2% per roll. This means that the 51st roll has a 4% success rate, the 52nd roll has a 6% success rate, and so on, until reaching the 99th roll with a success rate of 100%.
 
 Since the success rate is no longer fixed, we need to transition away from using the binomial distribution as our model. Given my limited knowledge and unfamiliarity with any theorems regarding scenarios with changing probabilities, it is evident that we need to devise our own function to effectively model this situation.
@@ -134,11 +134,14 @@ It is important to note that the power notation is structured in a way that for 
 With this clarification, our mathematical model is now complete:
 
 $$
-P(n)=\left\{\begin{array}{c}
-0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50 \\
-0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99
-\end{array}\right.
+P(n) = \left\{
+  \begin{array}{c}
+    0.02 \times 0.98^{n-1}, \quad 1 \leq n \leq 50 \\
+    0.02(n-49) \times 0.98^{50} \times \prod_{k=51}^{n-1}(1.98-0.02k), \quad 50<n \leq 99
+  \end{array}
+\right.
 $$
+
 
 ## Graphing the Model
 We can create a graph to provide a visual representation of the Arknights character pulling model:
@@ -149,7 +152,7 @@ This graph demonstrates the probability of obtaining a six-star unit on the $n^{
 
 At the 51st roll, the pity system activates, resulting in an upward slope. This upward slope indicates that the pity system is functioning as intended, offering higher probabilities for obtaining a six-star unit. The peak probability of 3.35% occurs at the 56th roll. Following this peak, the probability gradually declines, reflecting the impact of the pity system and previous successful rolls.
 
-Notably, reaching the 99th roll without obtaining a six-star unit is highly unlikely, with a probability close to 0. Conclusively, most players will achieve success before reaching the later stages of the character pulling system. However, it’s worth noting that the 56th roll, despite having the highest probability, **does not** represent the average roll point we are seeking.
+Notably, reaching the 99th roll without obtaining a six-star unit is highly unlikely, with a probability close to 0. Conclusively, most players will achieve success before reaching the later stages of the character pulling system. However, it’s worth noting that the 56th roll, despite having the highest probability, **does not** represent the average roll amount we are seeking.
 
 ## Solution 1: Cumulative Probability
 One approach to determining the average number of rolls required to obtain one six-star unit is to calculate the cumulative probability based on the aforementioned model. The cumulative probability at 50% can serve as an indicator of the average roll, as it signifies that half of the player base has already achieved success in obtaining one six-star unit.
