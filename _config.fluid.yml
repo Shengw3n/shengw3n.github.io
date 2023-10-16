@@ -608,7 +608,7 @@ post:
 
     # 开启后，只有在文章 Front-matter 里指定 `category_bar: true` 才会展示分类，也可以通过 `category_bar: ["分类A"]` 来指定分类
     # If true, only set `category_bar: true` in Front-matter will enable sidebar of category, also set `category_bar: ["CategoryA"]` to specify categories
-    specific: true
+    specific: false
 
     # 置于板块的左侧或右侧
     # place in the board
@@ -698,7 +698,7 @@ post:
   math:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `math: true`
     # If you want to use math on the custom page, you need to set `math: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `math: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `math: true` in Front-matter will enable math, to load faster when the page does not contain math
