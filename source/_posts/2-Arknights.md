@@ -114,9 +114,9 @@ $\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
 
 Here, $n$ represents the number of entries, $c1$ is the first term, and $d$ is the common difference. In our case, $k$ will be 51 since our function starts from the 51st entry, $c_{1}$ will be 0.98, and $𝑑$ will be -0.02. Therefore, the probability of failure component in our function is derived as:
 
-<p align="center">
-$\prod_{k=51}^{n-1}(0.98-0.02(k-50)), \quad 50<n \leq 99$
-</p>
+$$
+\prod_{k=51}^{n-1}(0.98-0.02(k-50)), \quad 50<n \leq 99
+$$
 
 The notation $k − 50$ indicates that we are treating the 51st entry as the first entry in our equation for the 51st to 99th entries. This notation can be simplified as follows:
 
