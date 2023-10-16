@@ -22,7 +22,7 @@
     if(String(snum).length === 1 ){
       snum = "0" + snum;
     }
-    document.getElementById("timeDate").innerHTML = "The site has been safely running for &nbsp"+dnum+"&nbspdays";
+    document.getElementById("timeDate").innerHTML = "🚀 This blog has been safely running for&nbsp"+dnum+"&nbspdays";
     document.getElementById("times").innerHTML = hnum + "&nbsphours&nbsp" + mnum + "&nbspminutes&nbsp" + snum + "&nbspseconds";
   }
 
