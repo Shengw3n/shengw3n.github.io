@@ -16,21 +16,21 @@
   <meta name="author" content="Steven Chen">
   <meta name="keywords" content="UBC Engineering Student Blog">
   
-    <meta name="description" content="This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single random 6-star character in the mobile game Arknights. Feel free to utilize the provi">
+    <meta name="description" content="This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single **random** 6-star character in the mobile game Arknights.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Arknights Pull Analysis">
 <meta property="og:url" content="https://shengw3n.github.io/2023/06/15/2023-05-27-Arknights/index.html">
 <meta property="og:site_name" content="Steven&#39;s Engineering Adventure">
-<meta property="og:description" content="This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single random 6-star character in the mobile game Arknights. Feel free to utilize the provi">
+<meta property="og:description" content="This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single **random** 6-star character in the mobile game Arknights.">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://shengw3n.github.io/img/arknights.png">
+<meta property="og:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
 <meta property="article:published_time" content="2023-06-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2023-10-16T04:41:39.890Z">
+<meta property="article:modified_time" content="2023-10-16T04:44:19.545Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Math">
 <meta property="article:tag" content="Gaming">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://shengw3n.github.io/img/arknights.png">
+<meta name="twitter:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
   
   
   
@@ -223,7 +223,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/banner/2_arknights.jpeg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.5)">
       <div class="banner-text text-center fade-in-up">
@@ -333,7 +333,9 @@
             
               <div class="markdown-body">
                 
-                <p>This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single <strong>random</strong> 6-star character in the mobile game Arknights. Feel free to utilize the provided catalog on the right-hand side to navigate to the specific sections that pique your interest.</p>
+                <blockquote>
+<p>This post aims to employ mathematical modeling to estimate the expected number of pulls required to obtain a single <strong>random</strong> 6-star character in the mobile game Arknights. Feel free to utilize the provided catalog on the right-hand side to navigate to the specific sections that pique your interest.</p>
+</blockquote>
 <h2 id="What-is-Arknights"><a href="#What-is-Arknights" class="headerlink" title="What is Arknights"></a>What is Arknights</h2><p>Arknights is a popular mobile tower defense game where players take on the role of a “Doctor” leading a team of unique operators to defend against threats in a dystopian world. </p>
 <p>The game incorporates a gacha system that revolves around acquiring new operators through randomized draws, each with designated probabilities. Operators are categorized by their star ratings, with 6-star operators considered the most powerful and 1-star operators the least. The probability of obtaining a 6-star operator stands at 2% per entry by default, although exceptions may apply as detailed below:</p>
 <p>In-game description of the pity system:</p>
@@ -628,6 +630,12 @@ The Arknights Pull Quantile
   
 
 
+  
+  
+
+
+
+
 
 
 
@@ -844,6 +852,49 @@ The Arknights Pull Quantile
 
 
   <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
 
   <script defer src="/js/leancloud.js" ></script>
 
