@@ -44,7 +44,7 @@ Math 100 teaches you how to do derivatives along with a little bit of optimizati
 	- Group assignments are worth 20% of your final grade and they mark it very harshly. Make sure someone in your group knows latex.
 
 ### APSC 100/101
-*Difficulty: ⭐* 
+*Difficulty: ⭐⭐* 
 
 APSC 100 in term 1, and APSC 101 in term 2. Meme courses teach you the roles and responsibilities of an engineer and what an engineering design process might look like. You also gain hands-on experience designing cardboard chairs, autonomous claws, etc. It is a meme course because the exams are multiple choices only and all of the choices make sense. So at the end of the day, it’s essentially a test on reading comprehension. You’ll know what I’m talking about when you actually experience it yourself.
 - Workload:
