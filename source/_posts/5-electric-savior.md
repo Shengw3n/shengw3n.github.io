@@ -21,7 +21,9 @@ As a student of electrical engineering, my intuition told me that we were grappl
 
 I turned to John, who confessed to a kitchen appliance frenzy, using multiple power-hungry gadgets simultaneously. My suspicion was confirmed. With an unwavering determination to rescue my roommate from the clutches of fast food misery, I set out to track down our apartment's electrical lifeline.
 
-Lo and behold, right in front of my bed, there it was—the circuit breaker panel. The switch had been flipped, defying our kitchen's power flow with a resounding "Thock."
+Lo and behold, right in front of my bed, there it was—the circuit breaker panel. The switch had been flipped, defying our kitchen's power flow. 
+
+"Thock."
 
 The kitchen erupted with light, and my roommate was saved from his impending McDonald's catastrophe. His lemon ice creams were safe, and his food was spared from an untimely demise.
 
