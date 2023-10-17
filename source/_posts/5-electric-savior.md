@@ -1,6 +1,6 @@
 ---
 title: How I saved my roommate's life
-tags: [misc.]
+tags: [Misc]
 index_img: /img/banner/5_electric savior.jpg
 banner_img: /img/banner/5_electric savior.jpg
 excerpt: How I saved my roommate's life using the knowledge of electricity.
