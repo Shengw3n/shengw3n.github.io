@@ -3,7 +3,7 @@ title: Guide to First-Year Engineering Courses at UBC
 tags: [UBC Engineering]
 index_img: /img/banner/3_firstyearcourse.jpeg
 banner_img: /img/banner/3_firstyearcourse.jpeg
-excerpt: In this article, I will provide a comprehensive overview of every UBC first-year engineering course.
+excerpt: A comprehensive overview of every UBC first-year engineering course.
 date: 2023-07-03 12:00:00
 ---
 
