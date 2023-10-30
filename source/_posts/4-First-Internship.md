@@ -1,6 +1,6 @@
 ---
 title: My First Engineering Internship
-tags: [UBC Engineering, Internships, Web Dev]
+tags: [Internships, Web Dev]
 categories: [UBC Engineering]
 index_img: /img/in-post/morning_meeting.jpeg
 banner_img: /img/banner/4_bullseye.jpg
