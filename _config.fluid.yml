@@ -343,7 +343,7 @@ navbar:
   menu:
     #- { key: "home", link: "/", icon: "iconfont icon-home-fill" }
      - {
-      name: 'archive'
+      name: 'archive',
       key: 'archive',
       icon: 'iconfont icon-archive-fill',
       submenu: [
