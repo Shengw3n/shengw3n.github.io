@@ -1,6 +1,7 @@
 ---
 title: Hello World
 tags: [Web Dev]
+categories: [Life]
 index_img: /img/banner/1_helloworld.jpg
 banner_img: /img/banner/1_helloworld.jpg
 excerpt: Welcome to my blog :)
