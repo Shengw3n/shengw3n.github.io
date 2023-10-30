@@ -343,18 +343,19 @@ navbar:
   menu:
     #- { key: "home", link: "/", icon: "iconfont icon-home-fill" }
      - {
+      name: 'archive'
       key: 'archive',
       icon: 'iconfont icon-archive-fill',
       submenu: [
-      { key: 'archive', link: '/archives/' },
-      { key: 'categories', link: '/categories/' },
-      { key: 'tags', link: '/tags/' }
+      { name: 'archive', key: 'archive', link: '/archives/' },
+      { name: 'categories', key: 'categories', link: '/categories/' },
+      { name: 'tags', key: 'tags', link: '/tags/' }
       ]
     }
    # - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
    #- { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
    #- { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+     - { name: 'about', key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
