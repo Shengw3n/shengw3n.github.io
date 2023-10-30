@@ -1,6 +1,7 @@
 ---
 title: Arknights Pull Analysis
 tags: [Math, Gaming]
+categories: [Papers]
 index_img: /img/banner/2_arknights.jpeg
 banner_img: /img/banner/2_arknights.jpeg
 math: true
