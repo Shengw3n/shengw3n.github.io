@@ -8,7 +8,7 @@ excerpt: My experience at my first engineering internship.
 date: 2023-09-15 12:00:00
 ---
 
-During the summer, I traveled back to China to visit my grandparents, marking my first return in over four years due to COVID-19 restrictions. While in China, I applied for an internship at a  local storage robotics company known as [Bullseye](https://en.ny-zn.com/). Bullseye specializes in designing and manufacturing storage robotics for large corporations such as Starbucks, Siemens, and Jingdong. You can chick on their website for a fascinating animation demonstrating how these robots operate.
+During the summer, I traveled back to China to visit my grandparents, marking my first return in over four years due to COVID-19 restrictions. While in China, I applied for an internship at a  local storage robotics company known as [Bullseye](https://en.ny-zn.com/). Bullseye specializes in designing and manufacturing storage robotics for large corporations such as Starbucks, Siemens, and Jingdong. (You can click on their website for a fascinating animation demonstrating how these robots operate.)
 
 ![A Bullseye Storage Robotics Warehouse](/img/in-post/bullseye.jpg)
 
