@@ -72,13 +72,13 @@ Considering the fixed increase in success rate, it is highly probable that there
 Let's start with the 51st roll. Referring to our function for the 1st to 50th roll, our $x$ value along with our number of combinations remains constant. Our probability of success $p$ will be set to 4% as mentioned before. However, our probability of failure $q$ will not be set to 96%. If we set $q$ to 96%, we are stating that the probability of failure for all rolls before 51st is 96%, which is not true. Referring to our binomial function for the 1st to 50th roll $P(n)=$ $0.02 \times 0.98^{n-1}$, we notice that we only apply our failure probability for $n-1$ rolls. Applying the same concept for the 51st term, we are only concerned with the probability of failure for the 1st to 50th term. Since the probability of failure is constant for the 1st to 50th term, our probability of failure component of the 51st roll is $0.98^{50}$. After defining all our variables, our equation of the 51st roll is complete:
 
 <p align="center">
-P(51)=0.04 \times 0.98^{50}
+$P(51)=0.04 \times 0.98^{50}$
 </p>
 
 Moving on to the 52nd term, the probability of success increases to 6%. As for the probability of failure, we apply the same principle of calculating it only for the $n-1$ rolls. Consequently, we arrive at a value of 0.96 multiplied by $0.98^{50}$. The 0.96 represents the probability of failure for the 51st roll, while $0.98^{50}$ refers to the probability of failure for the 1st to 50th rolls. With all variables defined, the equation for the 52nd roll is now complete:
 
 <p align="center">
-P(52)=0.06 \times 0.96 \times 0.98^{50}
+$P(52)=0.06 \times 0.96 \times 0.98^{50}$
 </p>
 
 Following the same procedure: 
