@@ -24,7 +24,7 @@ I turned to John, who confessed to a kitchen appliance frenzy, using multiple po
 
 Lo and behold, right in front of my bed, there it was—the circuit breaker panel. The switch had been flipped, defying our kitchen's power flow. 
 
-"Thock."
+"Click."
 
 The kitchen erupted with light, and my roommate was saved from his impending McDonald's catastrophe. His lemon ice creams were safe, and his food was spared from an untimely demise.
 
