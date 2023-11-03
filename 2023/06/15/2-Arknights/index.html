@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
 <meta property="article:published_time" content="2023-06-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2023-11-03T21:52:59.039Z">
+<meta property="article:modified_time" content="2023-11-03T22:19:00.459Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Math">
 <meta property="article:tag" content="Gaming">
@@ -396,12 +396,12 @@
 <p>Considering the fixed increase in success rate, it is highly probable that there exists a discernible relationship when evaluating the probability of each individual roll. As the success rate remains fixed on an individual roll basis, we can effectively employ the binomial distribution to calculate the probability of obtaining a six-star unit with each roll.</p>
 <p>Let’s start with the 51st roll. Referring to our function for the 1st to 50th roll, our $x$ value along with our number of combinations remains constant. Our probability of success $p$ will be set to 4% as mentioned before. However, our probability of failure $q$ will not be set to 96%. If we set $q$ to 96%, we are stating that the probability of failure for all rolls before 51st is 96%, which is not true. Referring to our binomial function for the 1st to 50th roll $P(n)&#x3D;$ $0.02 \times 0.98^{n-1}$, we notice that we only apply our failure probability for $n-1$ rolls. Applying the same concept for the 51st term, we are only concerned with the probability of failure for the 1st to 50th term. Since the probability of failure is constant for the 1st to 50th term, our probability of failure component of the 51st roll is $0.98^{50}$. After defining all our variables, our equation of the 51st roll is complete:</p>
 <p align="center">
-P(51)=0.04 \times 0.98^{50}
+$P(51)=0.04 \times 0.98^{50}$
 </p>
 
 <p>Moving on to the 52nd term, the probability of success increases to 6%. As for the probability of failure, we apply the same principle of calculating it only for the $n-1$ rolls. Consequently, we arrive at a value of 0.96 multiplied by $0.98^{50}$. The 0.96 represents the probability of failure for the 51st roll, while $0.98^{50}$ refers to the probability of failure for the 1st to 50th rolls. With all variables defined, the equation for the 52nd roll is now complete:</p>
 <p align="center">
-P(52)=0.06 \times 0.96 \times 0.98^{50}
+$P(52)=0.06 \times 0.96 \times 0.98^{50}$
 </p>
 
 <p>Following the same procedure: </p>
