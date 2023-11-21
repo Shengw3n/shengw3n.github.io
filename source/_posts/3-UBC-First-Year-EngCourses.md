@@ -60,7 +60,7 @@ APSC 100 in term 1, and APSC 101 in term 2. They are meme courses that teach you
 	- Taking initiative in team management and keeping your group organized is very important because the deadline for projects is often alongside midterms for your other classes and stress can quickly build up.
 
 ### CHEM 154
-*Difficulty: ⭐⭐⭐* 
+*Difficulty: ⭐⭐⭐⭐⭐* 
 
 CHEM 154 is essentially Chemistry 12 on steroids. You learn some stoichiometry in the beginning and slowly transition to equilibriums, thermodynamics, kinetics, and electrochemistry.  I am not very good at chemistry nor am I interested so the course felt very hard/tedious for me. Each unit by itself isn’t hard at all but there are just too many units.
 - Workload:
