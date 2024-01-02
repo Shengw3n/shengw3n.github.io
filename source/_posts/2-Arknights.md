@@ -196,8 +196,7 @@ Both solutions lead to a similar conclusion (**34.59%**), which aligns with the 
 Taking 35 as the average roll, since rolls are whole numbers, and considering each roll has a cost of 600 Orundum, the average cost of obtaining a six-star unit is 600 × 35 = **21,000 Orundum**.
 
 Additionally, I have created an **Arknights Pull Quantile** table:
-
-![The Arknights Pull Quantile](/img/in-post/Ark-Quantile.png)
+<img src="/img/in-post/Ark-Quantile.png" alt="The Arknights Pull Quantile" width="70%">
 
 Using this table, I can determine my "luckiness" based on the number of rolls. For example, in the IL Siracusano Event Banner, where I obtained a six-star unit (Texalter) in 26 rolls, I am ranked in the top 40.86% within the player base. This means that I am luckier than approximately 60% of the gamer population :)
 
