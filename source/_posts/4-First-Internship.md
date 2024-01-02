@@ -4,7 +4,7 @@ tags: [Internships, Web Dev]
 categories: [UBC Engineering]
 index_img: /img/in-post/morning_meeting.jpeg
 banner_img: /img/banner/4_bullseye.jpg
-excerpt: My experience at my first engineering internship.
+excerpt: My experience at my first engineering internship
 date: 2023-09-15 12:00:00
 ---
 
