@@ -4,7 +4,7 @@ tags: [Misc]
 categories: [Life]
 index_img: /img/banner/5_electric savior.jpg
 banner_img: /img/banner/5_electric savior.jpg
-excerpt: How I saved my roommate's life using the knowledge of electricity.
+excerpt: How I saved my roommate's life using the knowledge of electricity
 date: 2023-10-10 12:00:00
 ---
 
