@@ -4,7 +4,7 @@ tags: [UBC Engineering]
 categories: [UBC Engineering]
 index_img: /img/banner/3_firstyearcourse.jpeg
 banner_img: /img/banner/3_firstyearcourse.jpeg
-excerpt: A comprehensive overview of first-year engineering courses at UBC.
+excerpt: A comprehensive overview of first-year engineering courses at UBC
 date: 2023-07-03 12:00:00
 ---
 
