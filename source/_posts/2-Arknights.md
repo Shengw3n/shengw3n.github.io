@@ -75,7 +75,7 @@ Let's start with the 51st roll. Referring to our function for the 1st to 50th ro
 $P(51)=0.04 \times 0.98^{50}$
 </p>
 
-Moving on to the 52nd term, the probability of success increases to 6%. As for the probability of failure, we apply the same principle of calculating it only for the $n-1$ rolls. Consequently, we arrive at a value of 0.96 multiplied by $0.98^{50}$. The 0.96 represents the probability of failure for the 51st roll, while $0.98^{50}$ refers to the probability of failure for the 1st to 50th rolls. With all variables defined, the equation for the 52nd roll is now complete:
+Moving on to the 52nd term, the probability of success increases to 6%. As for the probability of failure, we apply the same principle of calculating it only for the $n-1$ rolls. Consequently, we arrive at a value of $0.96 \times 0.98^{50}$. The 0.96 represents the probability of failure for the 51st roll, while $0.98^{50}$ refers to the probability of failure for the 1st to 50th rolls. With all variables defined, the equation for the 52nd roll is now complete:
 
 <p align="center">
 $P(52)=0.06 \times 0.96 \times 0.98^{50}$
