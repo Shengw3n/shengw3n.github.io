@@ -19,7 +19,7 @@ The game incorporates a gacha system that revolves around acquiring new operator
 **In-game description of the pity system:**
 > If you do not roll a 6-star operator after 50 rolls, the probability of obtaining a 6-star Operator on the next roll will be increased from **2%** to **4%**. If you still do not roll a 6-star Operator, the probability of obtaining a 6-star Operator on the next row will be further increased from **4%** to **6%**, and this process repeats until a maximum probability of **100%**, at which point you are guaranteed to receive a 6-star Operator.
 
-## What is the problem?
+## The Problem
 We know the probability of obtaining a six-star unit in Arknights upon each individual roll, but **we do not know the expected number of rolls required to obtain a six-star unit**.
 
 Knowing the expected value of obtaining a six-star is important because players need to determine the amount of Orundum (Arknights' Gacha currency) they need to accumulate prior to event banners in order to safely secure their desired operators. This question is increasingly relevant, particularly with the recent launch of the Limited Event “IL Siracusano”.
