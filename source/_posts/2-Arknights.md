@@ -119,7 +119,7 @@ $$
 The notation $k − 50$ indicates that we are treating the 51st roll as the first roll in our equation for the 51st to 99th rolls. This notation can be simplified as follows:
 
 $$
-\prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99$
+\prod_{k=51}^{n-1}(1.98-0.02 k), \quad 50<n \leq 99
 $$
 
 Combining each component, we can arrive at the final form of our function for the 51st to 99th rolls:
