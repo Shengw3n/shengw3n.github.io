@@ -110,7 +110,7 @@ The probability of failure component can be expressed as a product of an arithme
 $\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
 </p>
 
-Here, $n$ represents the number of rolls, $c1$ is the first term, and $d$ is the common difference. In our case, $k$ will be 51 since our function starts from the 51st roll, $c_{1}$ will be 0.98, and $d$ will be -0.02. Therefore, the probability of failure component in our function is derived as:
+Here, $n$ represents the number of rolls, $c_{1}$ is the first term, and $d$ is the common difference. In our case, $k$ will be 51 since our function starts from the 51st roll, $c_{1}$ will be 0.98, and $d$ will be -0.02. Therefore, the probability of failure component in our function is derived as:
 
 $$
 \prod_{k=51}^{n-1}(0.98-0.02(k-50)), \quad 50<n \leq 99
