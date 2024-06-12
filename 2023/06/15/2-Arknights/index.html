@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
 <meta property="article:published_time" content="2023-06-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2024-06-12T18:08:22.458Z">
+<meta property="article:modified_time" content="2024-06-12T18:10:47.913Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Math">
 <meta property="article:tag" content="Gaming">
@@ -432,7 +432,7 @@ $\prod_{k=0}^{n-1}\left(c_{1}-k d\right)$
 <p>Here, $n$ represents the number of rolls, $c_{1}$ is the first term, and $d$ is the common difference. In our case, $k$ will be 51 since our function starts from the 51st roll, $c_{1}$ will be 0.98, and $d$ will be -0.02. Therefore, the probability of failure component in our function is derived as:</p>
 <p>$$<br>\prod_{k&#x3D;51}^{n-1}(0.98-0.02(k-50)), \quad 50&lt;n \leq 99<br>$$</p>
 <p>The notation $k − 50$ indicates that we are treating the 51st roll as the first roll in our equation for the 51st to 99th rolls. This notation can be simplified as follows:</p>
-<p>$$<br>\prod_{k&#x3D;51}^{n-1}(1.98-0.02 k), \quad 50&lt;n \leq 99$<br>$$</p>
+<p>$$<br>\prod_{k&#x3D;51}^{n-1}(1.98-0.02 k), \quad 50&lt;n \leq 99<br>$$</p>
 <p>Combining each component, we can arrive at the final form of our function for the 51st to 99th rolls:</p>
 <p>$$<br>P(n)&#x3D;0.02(n-49) \times 0.98^{50} \times \prod_{k&#x3D;51}^{n-1}(1.98-0.02 k), \quad 50&lt;n \leq 99<br>$$</p>
 <p>It is important to note that the power notation is structured in a way that for the 51st roll, the initial roll is 51, and the number of rolls is 50. This arrangement results in a value of 1, which is intentionally set up as our probability of failure component for the 51st roll is only $0.98^{50}$.</p>
