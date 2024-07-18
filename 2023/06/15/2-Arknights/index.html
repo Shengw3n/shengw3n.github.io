@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/banner/2_arknights.jpeg">
 <meta property="article:published_time" content="2023-06-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2024-07-18T03:09:19.327Z">
+<meta property="article:modified_time" content="2024-07-18T03:10:03.606Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Math">
 <meta property="article:tag" content="Gaming">
@@ -374,7 +374,7 @@
 <h2 id="The-Problem"><a href="#The-Problem" class="headerlink" title="The Problem"></a>The Problem</h2><p>We know the probability of obtaining a six-star unit in Arknights upon each individual roll, but <strong>we do not know the expected number of rolls required to obtain a six-star unit</strong>.</p>
 <p>Knowing the expected value of obtaining a six-star is important because players need to determine the amount of Orundum (Arknights’ Gacha currency) they need to accumulate prior to event banners in order to safely secure their desired operators. This question is increasingly relevant, particularly with the recent launch of the Limited Event “IL Siracusano”.</p>
 <p>Numerous attempts have been made to tackle this problem, such as utilizing the <a target="_blank" rel="noopener" href="https://rpubs.com/zyLiu6707/arknights-pull-simulation">Monte Carlo Approach</a> or running <a target="_blank" rel="noopener" href="https://rpubs.com/Frizu/arknightsgacha">Exploratory Data Analysis</a>. In this post, I will attempt to construct a mathematical model via binomial distribution, offering another perspective on this intriguing problem.</p>
-<p><img src="https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png" alt="IL Siracusano Event Banner"></p>
+<p><img src="/img/in-post/IlSiracusano_0.png" alt="IL Siracusano Event Banner"></p>
 <h2 id="Modeling-the-1st-to-50th-Roll"><a href="#Modeling-the-1st-to-50th-Roll" class="headerlink" title="Modeling the 1st to 50th Roll"></a>Modeling the 1st to 50th Roll</h2><p>To establish our model, it’s important to consider that we are guaranteed to obtain a six-star unit by the 99th roll as our success rate will have increased to 100% by that point. Therefore, our focus lies within the range of the 1st to 99th rolls, as our objective is to secure a single 6-star Operator.</p>
 <p>To apply the binomial distribution, we must ensure that four conditions are met:</p>
 <ol>
