@@ -57,12 +57,12 @@ date: 2024-07-08 12:00:00
 ### Canada Day
 周一是Canada Day，跟朋友吃了~~小肥羊~~快乐小羊自助火锅，去公园打了点德州扑克，然后看了烟花。刚买了个相机包当然得带去记录生活，提升提升摄影水平。Canada Day 竟然连宅舞都有太抽象了。
 
-{% gi 5 3-2 %}
+{% gi 5 2-3 %}
+  ![](/img/in-post/DSCF2758.jpeg)
+  ![](/img/in-post/DSCF2753.jpeg)
   ![](/img/in-post/DSCF2679.jpeg)
   ![](/img/in-post/DSCF2622.jpeg)
   ![](/img/in-post/DSCF2582.jpeg)
-  ![](/img/in-post/DSCF2758.jpeg)
-  ![](/img/in-post/DSCF2753.jpeg)
 {% endgi %}
 
 ### Garibaldi Lake
