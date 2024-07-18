@@ -1,7 +1,7 @@
 ---
 title: 周报#1 - 梦想，快乐，与持之以恒
 tags: [Reflections]
-categories: [Weekly Report]
+categories: [Weekly Reports]
 index_img: /img/in-post/DSCF2890.jpeg
 banner_img: /img/in-post/DSCF2890.jpeg
 math: false
