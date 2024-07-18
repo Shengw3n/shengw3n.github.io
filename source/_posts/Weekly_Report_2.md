@@ -11,7 +11,7 @@ date: 2024-07-15 12:00:00
 >本篇是对 `2024-07-08` 到 `2024-07-14` 这周生活的记录与思考。
 
 ### 忙碌的一周
-刚爬完[22公里的山](https://shengw3n.github.io/2024/07/08/Weekly_Report_1/#Garibaldi-Lake)就去乘船[挖生蚝](https://shengw3n.github.io/2024/07/15/Weekly_Report_2/#挖生蚝之Nanaimo一日游)，身体累。同一周还为了赶上Launch Canada的比赛，在一天内写完了37页的技术报告，心也累。更糟糕的是，还把比赛要用的[电调烧了](https://shengw3n.github.io/2024/07/15/Weekly_Report_2/#UBC-Rockets)，心更累了。上一周的周报写得很丧，这周心态还行。果然忙碌干活还是让我感觉充实。下周要开始学习学业上的东西了，大三马上就要开始了。顺便实习也得开始准备起来了。
+刚爬完[22公里的山](https://shengw3n.github.io/2024/07/08/Weekly_Report_1/#Garibaldi-Lake)就去乘船[挖生蚝](https://shengw3n.github.io/2024/07/15/Weekly_Report_2/#挖生蚝之Nanaimo一日游)，身体累。同一周还为了赶上Launch Canada的比赛，在一天内写完了37页的技术报告，心也累。更糟糕的是，还把比赛要用的[电调烧了](https://shengw3n.github.io/2024/07/15/Weekly_Report_2/#UBC-Rockets)，心更累了。上一周的周报写得很丧，这周心态还行。果然还是忙碌干活让我感觉充实。大三马上就要开始了，下周要开始学习学业上的东西了。顺便实习也得开始准备起来了。
 
 ### UBC Rockets
 
