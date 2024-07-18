@@ -33,7 +33,7 @@ frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolu
 height: 100%; left: 0; top: 0;"> </iframe></div>
 
 ### 挖生蚝之Nanaimo一日游
-周二买了张一日捕鱼证，乘渡船去了趟Nanaimo挖生蚝。第一次挖，整个沙滩遍地都是生蚝，赞👍。 顺路去了Todd Creek Trestle，非常平庸的的一个桥梁景点，看了一次不会看第二次
+周二买了张一日捕鱼证，乘渡船去了趟Nanaimo挖生蚝。第一次挖，整个沙滩遍地都是生蚝，赞👍。挖生蚝时手全是泥就没拿相机拍照了。 顺路去了Todd Creek Trestle，非常平庸的的一个桥梁景点，看了一次不会看第二次
 
 {% gi 5 3-2 %}
   ![](/img/in-post/DSCF3429.jpeg)
