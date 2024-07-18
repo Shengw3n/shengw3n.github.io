@@ -73,5 +73,5 @@ date: 2024-07-08 12:00:00
   ![](/img/in-post/DSCF2890.jpeg)
   ![](/img/in-post/DSCF2898.jpeg)
   ![](/img/in-post/DSCF2969.jpeg)
-  ![](/img/in-post/ DSCF2789.jpeg)
+  ![](/img/in-post/DSCF2789.jpeg)
 {% endgi %}
