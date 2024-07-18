@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/in-post/DSCF2890.jpeg">
 <meta property="article:published_time" content="2024-07-08T12:00:00.000Z">
-<meta property="article:modified_time" content="2024-07-18T03:12:20.298Z">
+<meta property="article:modified_time" content="2024-07-18T03:53:37.539Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Reflections">
 <meta name="twitter:card" content="summary_large_image">
@@ -365,7 +365,7 @@
 <p>梦想与现实表现的巨大反差使我异常困惑。这两点无疑是我目前最大的缺陷。但我该如何改？我要怎样才能有一颗渴望胜利的心呢？我仍没有找到答案。</p>
 <h3 id="高达梦，-工程梦"><a href="#高达梦，-工程梦" class="headerlink" title="高达梦， 工程梦"></a>高达梦， 工程梦</h3><p>正如前文所述，我十岁时就决定要成为一名工程师。在我的第一个目标——进入击剑国家队——惨遭失败后，我对工程梦想的追求变得更加谨慎。我不是一个害怕失败和选择的人，至少之前没有那么敏感。然而，随着年龄的增长，不安和恐惧变得愈加显著。面试工作被拒、考试成绩不理想、工程项目运行失败……这些挫折让我浮躁，而浮躁让我更难专心下来。当安全感如洋葱般被一层层剥开，孤独感迅速侵袭。正如pseudoyu在他的周报中所说，“也许在之后很久的时光里，孤独感都会像是一个朋友一样如影随形，我尚未学会如何与它相处，但也逐渐在习惯它的存在。” 我也在慢慢适应这种孤独感。</p>
 <h3 id="UBC-Rockets"><a href="#UBC-Rockets" class="headerlink" title="UBC Rockets"></a>UBC Rockets</h3><blockquote>
-<p><a target="_blank" rel="noopener" href="https://www.ubcrocket.com/">UBC Rocket</a> 是一个UBC工程学生设计团队，致力于亚轨道火箭的设计、制造和发射。我们目前一共有三个火箭项目并行研发，我正在负责其中的<a target="_blank" rel="noopener" href="https://github.com/UBC-Rocket/Thrust-Vectoring">Thust Vector Rocket</a>，一个自着陆电控火箭。</p>
+<p><a target="_blank" rel="noopener" href="https://www.ubcrocket.com/">UBC Rocket</a> 是一个UBC工程学生设计团队，致力于亚轨道火箭的设计、制造和发射。目前我们有三个火箭项目并行研发：液态火箭、二级固态火箭和自着陆火箭。我正在负责其中的自着陆火箭项目，<a target="_blank" rel="noopener" href="https://github.com/UBC-Rocket/Thrust-Vectoring">Thrust Vector Rocket</a>。</p>
 </blockquote>
 <p>这周主要把基础PID控制代码给写了. 原理很简单，如果火箭往一边倾斜，火箭gimbal就往另一边倾斜把它纠正回去。具体模型 Matlab 文件夹都还没创建，下周再说吧。</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs C++">inputY = a.acceleration.y; <span class="hljs-comment">// Using acceleration as input</span><br>pidY.<span class="hljs-built_in">Compute</span>();<br><span class="hljs-type">int</span> servoPosY = <span class="hljs-built_in">constrain</span>(<span class="hljs-number">90</span> + outputY, <span class="hljs-number">0</span>, <span class="hljs-number">180</span>); <span class="hljs-comment">// outputY = PID output</span><br>servoY.<span class="hljs-built_in">write</span>(servoPosY);<br></code></pre></td></tr></table></figure>
