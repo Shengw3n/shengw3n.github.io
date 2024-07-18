@@ -26,7 +26,7 @@ Knowing the expected value of obtaining a six-star is important because players 
 
 Numerous attempts have been made to tackle this problem, such as utilizing the [Monte Carlo Approach](https://rpubs.com/zyLiu6707/arknights-pull-simulation) or running [Exploratory Data Analysis](https://rpubs.com/Frizu/arknightsgacha). In this post, I will attempt to construct a mathematical model via binomial distribution, offering another perspective on this intriguing problem.
 
-![IL Siracusano Event Banner](https://gamepress.gg/arknights/sites/arknights/files/2023-05/IlSiracusanoBanner_0.png)
+![IL Siracusano Event Banner](/img/in-post/IlSiracusano_0.png)
 
 ## Modeling the 1st to 50th Roll
 To establish our model, it’s important to consider that we are guaranteed to obtain a six-star unit by the 99th roll as our success rate will have increased to 100% by that point. Therefore, our focus lies within the range of the 1st to 99th rolls, as our objective is to secure a single 6-star Operator.
