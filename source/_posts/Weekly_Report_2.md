@@ -4,8 +4,8 @@ tags:
   - Reflections
 categories:
   - Weekly Reports
-index_img: /img/banner/
-banner_img: /img/banner/
+index_img: /img/in-post/DSCF3204.jpeg
+banner_img: /img/in-post/DSCF3204.jpeg
 math: false
 excerpt: 本篇是对 `2024-07-08` 到 `2024-07-14` 这周生活的记录与思考。
 date: 2024-07-15 12:00:00
