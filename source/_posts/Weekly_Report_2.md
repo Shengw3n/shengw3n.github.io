@@ -26,6 +26,7 @@ date: 2024-07-15 12:00:00
 
 下周等新的电调来了，机械组把调试台做好，就可以开始调试PID了。顺便也该开始测试无线网功能了。
 
+**Gimbal PID Testing**
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe 
 src="/vid/IMG_6815.MOV" alt="Gimbal PID Testing" scrolling="no" border="0" 
 frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; 
