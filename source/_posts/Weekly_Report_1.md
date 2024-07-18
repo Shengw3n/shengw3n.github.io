@@ -6,7 +6,7 @@ index_img: /img/in-post/DSCF2890.jpeg
 banner_img: /img/in-post/DSCF2890.jpeg
 math: false
 excerpt: 本篇是对 `2024-07-01` 到 `2024-07-07` 这周生活的记录与思考。
-date: 2023-07-08 12:00:00
+date: 2024-07-08 12:00:00
 ---
 
 >本篇是对 `2024-07-01` 到 `2024-07-07` 这周生活的记录与思考。
