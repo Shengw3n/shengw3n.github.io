@@ -1,7 +1,7 @@
 ---
 title: How I saved my roommate's life
-tags: [Misc]
-categories: [Life]
+tags: [Humour]
+categories: [Misc]
 index_img: /img/banner/5_electric savior.jpg
 banner_img: /img/banner/5_electric savior.jpg
 excerpt: How I saved my roommate's life using the knowledge of electricity
