@@ -30,7 +30,7 @@ Secondly, my desire to win isn’t as strong as it should be. This paradox is ev
 ### Adapting to Present Challenges
 My dreams have deep roots in my childhood and remain consistent. Beyond fencing, I also aspired to become an engineer from a young age, inspired by the giant robots in animes like “Code Geass” and “Gundam 00.” I even shared my Gundam ambitions during my first-year Engineering Physics interview, a moment that now makes me smile with embarrassment.
 
-After the setback of my fencing dream, I’ve approached my engineering aspirations with increased caution. As I’ve grown older, anxiety and fear have intensified. Rejections from job interviews, unsatisfactory exam results, and failed engineering projects have made me restless, undermining my focus on current goals. As my sense of security gradually fades, loneliness has taken its place. I am slowly learning to navigate this new, isolating reality.
+After the setback of my fencing dream, I’ve approached my engineering aspirations with increased caution. As I’ve grown older, anxiety and fear have intensified. Rejections from job interviews, unsatisfactory exam results, and failed engineering projects have made me restless, undermining my focus on current goals. As my sense of security gradually peels away like a onion, loneliness has taken its place. I am slowly learning to navigate this new, isolating reality.
 
 ### UBC Rockets
 > [UBC Rocket](https://www.ubcrocket.com) is an engineering student design team at the University of British Columbia dedicated to the design, manufacture, and launch of suborbital rockets. I’m currently contributing to the [Thrust Vector Rocket](https://github.com/UBC-Rocket/Thrust-Vectoring), our self-landing rocket project.
