@@ -19,7 +19,7 @@ The idea of writing weekly reports began about six months ago after discoveringÂ
 ### Dreams, Discipline, and the Pain of Failure
 Fencing has been a bittersweet journey for me. Since I was 12, my dream was to join the Canadian national team for fencing. I invested significant time and money, fenced almost daily, attended numerous competitions, and trained diligently. Despite these efforts, I did not achieve my goal.
 
-Reconciling with myself has been difficult, especially when surrounded by talented individuals. A friend who began fencing just six months before me is heading to the Paris Olympics, while others a year older and younger have made the national team. Though the pandemic disrupted my schedule, I ultimately hold myself accountable.
+Reconciling with myself has been difficult, especially when surrounded by talented individuals. A friend who began fencing just six months before me is heading to the Paris Olympics, while others a year older and younger have made the national team. Although one could argue that the pandemic disrupted my schedule, I ultimately hold myself accountable.
 
 I need to understand what I lack compared to my successful peers. Iâ€™ve identified two major deficiencies: discipline and a strong desire to win.
 
