@@ -17,7 +17,7 @@ Over the past two years at university, my busy schedule and various distractions
 The idea of writing weekly reports began about six months ago after discovering [pseudoyu](https://www.pseudoyu.com/zh/)’s blog. I aim to evaluate my life, work, and studies weekly, much like his approach. Writing these reports is my way of motivating myself to get closer to who I want to become.
 
 ### Dreams, Discipline, and the Pain of Failure
-Fencing has been a bittersweet journey for me. Since I was 12, my dream was to join the Canadian fencing national team. I invested significant time and money, fenced almost daily, attended numerous competitions, and trained diligently. Despite these efforts, I did not achieve my goal.
+Fencing has been a bittersweet journey for me. Since I was 12, my dream was to join the Canadian national team for fencing. I invested significant time and money, fenced almost daily, attended numerous competitions, and trained diligently. Despite these efforts, I did not achieve my goal.
 
 Reconciling with myself has been difficult, especially when surrounded by talented individuals. A friend who began fencing just six months before me is heading to the Paris Olympics, while others a year older and younger have made the national team. Though the pandemic disrupted my schedule, I ultimately hold myself accountable.
 
