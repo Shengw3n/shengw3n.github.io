@@ -70,5 +70,5 @@ My friends recently all started going to the casino to play poker for some reaso
 
 Besides the degen casino trip, I also managed to climb to Silver this week in League of Legends! (I uninstalled the same day, too much brain rot activities, I am pretty happy with silver)
 
-![I hit silver!](/img/in-post/leagueoflegend.png)
+![I hit silver!](/img/in-post/Leagueoflegend.png)
 
