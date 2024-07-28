@@ -33,7 +33,7 @@ We are still waiting for the new ESC installation to start tuning the PID. In th
 #### Wi-Fi Station Communication 
 It turns out the custom-made ESP-12F is designed for children aged 3-12 in China and is highly specialized, connecting only to a dedicated Android app and WeChat, with limited customization. It is also impossible to code the ESP-12F since it is soldered onto a custom PCB board. I managed to establish communication with the Android app using a MacBook android simulator, but the app itself is again very basic and lacks customization.
 
-I considered giving up and buying a cheap Bluetooth Low Energy module instead (which we might do next year), but I decided to reverse engineer the communication protocol between the ESP-12F and the Android app first using a network analyzer tool like [Wireshark](https://www.wireshark.org/).
+I considered giving up and buying a cheap Bluetooth Low Energy module instead (which we might do next year), but I decided to try reverse engineer the communication protocol between the ESP-12F and the Android app first by listening to their communication using a network analyzer tool like [Wireshark](https://www.wireshark.org/).
 
 ![Analyzing network protocol using Wireshark](/img/in-post/IMG_1234.png)
 
