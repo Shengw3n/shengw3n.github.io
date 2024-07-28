@@ -27,7 +27,7 @@ The turning point came this week with my [involvements](https://shengw3n.github.
 
 We are still waiting for the new ESC installation to start tuning the PID. In the meantime, I implemented a Wi-Fi communication using a custom-made ESP-12F I had at home.
 
-**Wi-Fi Station Communication** 
+#### Wi-Fi Station Communication 
 It turns out the custom-made ESP-12F is designed for children aged 3-12 in China and is highly specialized, connecting only to a dedicated Android app and WeChat, with limited customization. It is also impossible to code the ESP-12F since it is soldered onto a custom PCB board. I managed to establish communication with the Android app using a MacBook android simulator, but the app itself is again very basic and lacks customization.
 
 I considered giving up and buying a cheap Bluetooth Low Energy module instead (which we might do next year), but I decided to reverse engineer the communication protocol between the ESP-12F and the Android app first using a network analyzer tool like [Wireshark](https://www.wireshark.org/).
@@ -36,7 +36,7 @@ I considered giving up and buying a cheap Bluetooth Low Energy module instead (w
 
 Of course I had to first spend a day learning network concepts ([this website](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html) was particularly helpful), but in the end I managed to reverse-engineer the communication protocol and incorporated it into the code. 
 
-**Python Code Snippet**
+#### Python Code Snippet
 ``` Python
 def send_command(command): # Function to send command to ESP-12F
     host = '192.168.1.1'
