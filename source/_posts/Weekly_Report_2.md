@@ -5,7 +5,7 @@ categories: [Weekly Reports]
 index_img: /img/in-post/DSCF3204.jpeg
 banner_img: /img/in-post/DSCF3204.jpeg
 math: false
-excerpt: This article reflects on my life from the week of `07-08-2024` to `07-14-2024`.
+excerpt: This article reflects on my life from the week of 07-08-2024 to 07-14-2024.
 date: 2024-07-15 12:00:00
 ---
 >This article reflects on my life from the week of `07-08-2024` to `07-14-2024`.
