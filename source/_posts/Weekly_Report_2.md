@@ -34,6 +34,7 @@ src="/vid/IMG_6815.MOV" alt="Gimbal PID Testing" scrolling="no" border="0"
 frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; 
 height: 100%; left: 0; top: 0;"> </iframe></div>
 
+
 **Next Steps**
 - Design and manufacture test rig for PID tuning
 - Implement wireless functionalities
