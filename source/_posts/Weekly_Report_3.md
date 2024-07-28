@@ -48,7 +48,7 @@ def send_command(command): # Function to send command to ESP-12F
             s.sendall((command + '\n').encode())
 ```
 
-I also created a neat GUI with `tkinter`, allowing us to remotely control the rocket:
+I also created a neat GUI with `tkinter`, allowing us to remotely control the rocket with style 😎:
 ![Simple Rocket Control GUI](/img/in-post/gui.png)
 However, it is still impossible to send sensor data back from the rocket through the ESP-12F since I cannot code it. I am essentially mimicking the Android app. This functionality is sufficient for the Launch Canada Competition in a month, where we are showcasing the hover ability of our Thrust Vector Rocket instead of flying it. We will likely switch to Bluetooth or a radio module like the Xbee next year.
 
