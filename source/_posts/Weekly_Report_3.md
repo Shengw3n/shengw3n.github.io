@@ -20,7 +20,7 @@ Second year of engineering was a challenging period. Despite cool projects such 
 
 ![Me and my ELEC 291 group getting A&W at 6 am after an all-nighter](/img/in-post/IMG_0689.jpeg)
 
-The turning point came this week with my involvement in [UBC Rocket](https://www.ubcrocket.com/). Successfully setting up Wi-Fi communication for the Thrust Vector Rocket brought back the excitement I had been missing. The sense of accomplishment when establishing a working connection was exhilarating, especially after analyzing the network protocol like a spy. Moving forward, I aim to seek out and cherish more of these fulfilling moments.
+The turning point came this week with my [involvements](https://shengw3n.github.io/2024/07/22/Weekly_Report_3/#UBC-Rocket) in UBC Rocket. Successfully setting up Wi-Fi communication for the Thrust Vector Rocket brought back the excitement I had been missing. The sense of accomplishment when establishing a working connection was exhilarating, especially after analyzing the network protocol like a spy. Moving forward, I aim to seek out and cherish more of these fulfilling moments.
 
 ### UBC Rocket
 > [UBC Rocket](https://www.ubcrocket.com) is an engineering student design team at the University of British Columbia dedicated to the design, manufacture, and launch of suborbital rockets. I’m currently contributing to the [Thrust Vector Rocket](https://github.com/UBC-Rocket/Thrust-Vectoring), our self-landing rocket project.
