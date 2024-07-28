@@ -37,7 +37,7 @@ After the setback of my fencing dream, I’ve approached my engineering aspirati
 
 This week, I focused on developing the basic PID control for the gimbal. The principle is straightforward: if the rocket tilts to one side, the gimbal tilts in the opposite direction to correct it.
 
-**PID Code Snippet**
+#### PID Code Snippet
 ``` C++
   inputY = a.acceleration.y; // Using acceleration as input
   pidY.Compute();
@@ -45,11 +45,11 @@ This week, I focused on developing the basic PID control for the gimbal. The pri
   servoY.write(servoPosY);
 ```
 
-**Debugging**
+#### Debugging
 1. The gyroscope MPU-6050’s AD0 pin (I2C Address pin) was not connected to ground, causing occasional sensor freezes.
 2. The Arduino PID Library <PID_v1.h> has a default output range of 0-255, which caused issues with negative PID outputs. `SetOutputLimits()` resolved this.
 
-**Next Steps**
+#### Next Steps
 - Combine accelerometer and gyro readings using a complementary Kalman filter for more accurate rocket angle estimation
 - Motor Test
 - Matlab simulations (?)
