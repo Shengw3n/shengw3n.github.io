@@ -20,22 +20,22 @@ This week, my teammate and I made a super stupid mistake by frying the ESC (Elec
 
 This experience was a tough lesson in patience and thoroughness. Our haste prevented us from properly reviewing the circuit before testing. Moving forward, we need to ensure high-voltage circuits are reviewed carefully to avoid such mistakes.
 
-**Launch Canada Final Report**
+#### Launch Canada Final Report
 We (3 people) completed a 37-page technical report in one day for the Launch Canada competition. Horrendous experience that I do not want to go through again. I aspire to write it better next year.
 
-**Software Progress**
+#### Software Progress
 This week I processed the gyroscope and accelerometer data using a Kalman filter and fed the resulting angle data into the PID controller. This marks significant progress towards the hover functionality we plan to showcase at the Launch Canada competition in August. You can see the gimbal reacting to the sensor's data below.
 
 In terms of simulation, after consulting with fellow rocket member [Timothy](https://timothycai.com), we decided to forgo creating a Matlab model and instead use the Ziegler-Nichols method for in the loop PID tuning. This seems like a more practical approach.
 
-**Gimbal PID Testing**
+#### Gimbal PID Testing
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe 
 src="/vid/IMG_6815.MOV" alt="Gimbal PID Testing" scrolling="no" border="0" 
 frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; 
 height: 100%; left: 0; top: 0;"> </iframe></div>
 
 
-**Next Steps**
+#### Next Steps
 - Design and manufacture test rig for PID tuning
 - Implement wireless functionalities
 
