@@ -28,7 +28,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/in-post/DSCF2890.jpeg">
 <meta property="article:published_time" content="2024-07-08T12:00:00.000Z">
-<meta property="article:modified_time" content="2024-07-28T05:53:21.174Z">
+<meta property="article:modified_time" content="2024-07-28T05:54:19.377Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Reflections">
 <meta name="twitter:card" content="summary_large_image">
@@ -388,16 +388,13 @@
 <p><a target="_blank" rel="noopener" href="https://www.ubcrocket.com/">UBC Rocket</a> is an engineering student design team at the University of British Columbia dedicated to the design, manufacture, and launch of suborbital rockets. I’m currently contributing to the <a target="_blank" rel="noopener" href="https://github.com/UBC-Rocket/Thrust-Vectoring">Thrust Vector Rocket</a>, our self-landing rocket project.</p>
 </blockquote>
 <p>This week, I focused on developing the basic PID control for the gimbal. The principle is straightforward: if the rocket tilts to one side, the gimbal tilts in the opposite direction to correct it.</p>
-<p><strong>PID Code Snippet</strong></p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs C++">inputY = a.acceleration.y; <span class="hljs-comment">// Using acceleration as input</span><br>pidY.<span class="hljs-built_in">Compute</span>();<br><span class="hljs-type">int</span> servoPosY = <span class="hljs-built_in">constrain</span>(<span class="hljs-number">90</span> + outputY, <span class="hljs-number">0</span>, <span class="hljs-number">180</span>); <span class="hljs-comment">// outputY = PID output</span><br>servoY.<span class="hljs-built_in">write</span>(servoPosY);<br></code></pre></td></tr></table></figure>
+<h4 id="PID-Code-Snippet"><a href="#PID-Code-Snippet" class="headerlink" title="PID Code Snippet"></a>PID Code Snippet</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs C++">inputY = a.acceleration.y; <span class="hljs-comment">// Using acceleration as input</span><br>pidY.<span class="hljs-built_in">Compute</span>();<br><span class="hljs-type">int</span> servoPosY = <span class="hljs-built_in">constrain</span>(<span class="hljs-number">90</span> + outputY, <span class="hljs-number">0</span>, <span class="hljs-number">180</span>); <span class="hljs-comment">// outputY = PID output</span><br>servoY.<span class="hljs-built_in">write</span>(servoPosY);<br></code></pre></td></tr></table></figure>
 
-<p><strong>Debugging</strong></p>
-<ol>
+<h4 id="Debugging"><a href="#Debugging" class="headerlink" title="Debugging"></a>Debugging</h4><ol>
 <li>The gyroscope MPU-6050’s AD0 pin (I2C Address pin) was not connected to ground, causing occasional sensor freezes.</li>
 <li>The Arduino PID Library &lt;PID_v1.h&gt; has a default output range of 0-255, which caused issues with negative PID outputs. <code>SetOutputLimits()</code> resolved this.</li>
 </ol>
-<p><strong>Next Steps</strong></p>
-<ul>
+<h4 id="Next-Steps"><a href="#Next-Steps" class="headerlink" title="Next Steps"></a>Next Steps</h4><ul>
 <li>Combine accelerometer and gyro readings using a complementary Kalman filter for more accurate rocket angle estimation</li>
 <li>Motor Test</li>
 <li>Matlab simulations (?)</li>
