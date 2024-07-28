@@ -18,7 +18,7 @@ I've been slowly improving my study habits this week. I also started [CS50](htt
 ### Finding Joy in Engineering Again
 Second year of engineering was a challenging period. Despite cool projects such as the [FPGA RISC Machine](https://github.com/Shengw3n/FPGA-Reduced-Instruction-Set-Computer), [Reflow Oven Controller](https://github.com/Shengw3n/Reflow-Oven-Controller), and [Remote-Controlled Robot](https://github.com/Shengw3n/Remote-Controlled-Metal-Detector-Robot), the experience felt rushed and lacked the joy I once associated with engineering. Long lab hours and unending assignments made it a tough year overall.
 
-![Me and my ELEC 291 group getting A&W at 6 am after an all-nighter](/img/in-post/IMG_0689.jpeg)
+<img src="/img/in-post/IMG_0689.jpeg" width="300" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
 
 The turning point came this week with my [involvements](https://shengw3n.github.io/2024/07/22/Weekly_Report_3/#UBC-Rocket) in UBC Rocket. Successfully setting up Wi-Fi communication for the Thrust Vector Rocket brought back the excitement I had been missing. The sense of accomplishment when establishing a working connection was exhilarating, especially after analyzing the network protocol like a spy beforehand. Moving forward, I aim to seek out and cherish more of these fulfilling moments.
 
