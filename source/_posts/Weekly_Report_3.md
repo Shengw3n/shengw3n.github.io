@@ -28,7 +28,7 @@ The turning point came this week with my [involvements](https://shengw3n.github.
 ### UBC Rocket
 > [UBC Rocket](https://www.ubcrocket.com) is an engineering student design team at the University of British Columbia dedicated to the design, manufacture, and launch of suborbital rockets. I’m currently contributing to the [Thrust Vector Rocket](https://github.com/UBC-Rocket/Thrust-Vectoring), our self-landing rocket project.
 
-We are still waiting for the new ESC installation to start tuning the PID. In the meantime, I implemented a Wi-Fi communication using a custom-made ESP-12F I had at home.
+We are still waiting for the new ESC installation to start tuning the PID. In the meantime, I established Wi-Fi communications between the rocket and my laptop using a custom-made ESP-12F I had at home.
 
 #### Wi-Fi Station Communication 
 It turns out the custom-made ESP-12F is designed for children aged 3-12 in China and is highly specialized, connecting only to a dedicated Android app and WeChat, with limited customization. It is also impossible to code the ESP-12F since it is soldered onto a custom PCB board. I managed to establish communication with the Android app using a MacBook android simulator, but the app itself is again very basic and lacks customization.
