@@ -1,5 +1,5 @@
 ---
-title: WR#2 - Busy week
+title: WR#2 - Busy Week
 tags: [Reflections]
 categories: [Weekly Reports]
 index_img: /img/in-post/DSCF3204.jpeg
