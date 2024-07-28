@@ -1,5 +1,5 @@
 ---
-title: WR3 - Rediscovering Joy in Engineering
+title: WR#3 - Rediscovering Joy in Engineering
 tags:
   - Reflections
 categories:
