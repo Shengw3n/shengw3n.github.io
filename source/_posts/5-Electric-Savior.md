@@ -1,5 +1,5 @@
 ---
-title: How I saved my roommate's life
+title: How I Saved My Roommate's Life
 tags: [Humour]
 categories: [Misc]
 index_img: /img/banner/5_electric savior.jpg
