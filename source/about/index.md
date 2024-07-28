@@ -3,10 +3,8 @@ title: about
 layout: about
 ---
 
-Welcome to my blog! 
+Welcome to my blog! 🥳
 
-I am Steven, currently a second year electrical engineering student here at the University of British Columbia.
+I am Steven, currently a third year electrical engineering student at the University of British Columbia. 
 
-I have worked as a mechanical and manufacturing engineer for the UBC Rocket design team for the past year and is currently interning as a front end engineer.
-
-This blog is built with Hexo and the Fluid Theme.
+This site is created via the [Fluid theme](https://hexo.fluid-dev.com/docs/en/) for the static [Hexo framework](https://hexo.io/index.html), and it's deployed via [GitHub Pages](https://pages.github.com/).
