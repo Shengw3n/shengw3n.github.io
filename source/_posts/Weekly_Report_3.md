@@ -4,8 +4,8 @@ tags:
   - Reflections
 categories:
   - Weekly Reports
-index_img: /img/banner/
-banner_img: /img/banner/
+index_img: /img/banner/DSCF2247.JPG
+banner_img: /img/banner/DSCF2247.JPG
 math: false
 excerpt: This article reflects on my life from the week of `07-15-2024` to `07-21-2024`.
 date: 2024-07-22 12:00:00
