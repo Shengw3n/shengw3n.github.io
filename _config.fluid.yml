@@ -276,7 +276,7 @@ web_analytics:  # 网页访问统计
   cnzz:
 
   # LeanCloud 计数统计，可用于 PV UV 展示，如果 `web_analytics: enable` 没有开启，PV UV 展示只会查询不会增加
-  # LeanCloud count statistics, which can be used for PV UV display. If `web_analytics: enable` is false, PV UV display will only query and not increase
+  # LeanCloud  statistics, which can be used for PV UV display. If `web_analytics: enable` is false, PV UV display will only query and not increase
   leancloud:
     app_id: SNp2DOrtw8SXWfkcP657TZNI-MdYXbMMI
     app_key: J9akAon4V8KdWi1qScSRFWcC
@@ -570,7 +570,7 @@ post:
     # 字数统计
     # Word count
     wordcount:
-      enable: true
+      enable: false
 
     # 估计阅读全文需要的时长
     # Estimated reading time
@@ -586,7 +586,7 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: true
+      enable: false
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
