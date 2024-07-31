@@ -28,7 +28,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://shengw3n.github.io/img/in-post/DSCF3204.jpeg">
 <meta property="article:published_time" content="2024-07-15T12:00:00.000Z">
-<meta property="article:modified_time" content="2024-07-31T00:19:52.553Z">
+<meta property="article:modified_time" content="2024-07-31T00:20:22.131Z">
 <meta property="article:author" content="Steven Chen">
 <meta property="article:tag" content="Reflections">
 <meta name="twitter:card" content="summary_large_image">
@@ -369,13 +369,13 @@
 <p>This article reflects on my life from the week of <code>07-08-2024</code> to <code>07-14-2024</code>.</p>
 </blockquote>
 <p>Busy and tiring week. Following my first weekly report, I’ve been working on building discipline by committing to daily planned tasks. Although I’ve made some progress, I still find myself spending a fair amount of time watching Bilibili and reading manga. It’s a gradual process, but I’m happy with the improvements I’m seeing.</p>
-<h3 id="UBC-Rockets"><a href="#UBC-Rockets" class="headerlink" title="UBC Rockets"></a>UBC Rockets</h3><blockquote>
+<h2 id="UBC-Rockets"><a href="#UBC-Rockets" class="headerlink" title="UBC Rockets"></a>UBC Rockets</h2><blockquote>
 <p><a target="_blank" rel="noopener" href="https://www.ubcrocket.com/">UBC Rocket</a> is an engineering student design team at the University of British Columbia dedicated to the design, manufacture, and launch of suborbital rockets. I’m currently contributing to the <a target="_blank" rel="noopener" href="https://github.com/UBC-Rocket/Thrust-Vectoring">Thrust Vector Rocket</a>, our self-landing rocket project.</p>
 </blockquote>
 <p>This week, my teammate and I made a super stupid mistake by frying the ESC (Electric Speed Controller) for our rocket. The issue arose because our rocket’s thrust was consistently below the expected 9kg, hovering around 4kg. After much troubleshooting, we concluded the problem was likely with the power supply rather than the code. In our haste to resolve the issue, we rewired the circuit, but ended up doubling the voltage beyond the engine’s acceptable range, which destroyed the ESC.</p>
 <p>This experience was a tough lesson in patience and thoroughness. Our haste prevented us from properly reviewing the circuit before testing. Moving forward, we need to ensure high-voltage circuits are reviewed carefully to avoid such mistakes.</p>
-<h4 id="Launch-Canada-Final-Report"><a href="#Launch-Canada-Final-Report" class="headerlink" title="Launch Canada Final Report"></a>Launch Canada Final Report</h4><p>We (3 people) completed a 37-page technical report in one day for the Launch Canada competition. Horrendous experience that I do not want to go through again. I aspire to write it better next year.</p>
-<h4 id="Software-Progress"><a href="#Software-Progress" class="headerlink" title="Software Progress"></a>Software Progress</h4><p>This week I processed the gyroscope and accelerometer data using a Kalman filter and fed the resulting angle data into the PID controller. This marks significant progress towards the hover functionality we plan to showcase at the Launch Canada competition in August. You can see the gimbal reacting to the sensor’s data below.</p>
+<h3 id="Launch-Canada-Final-Report"><a href="#Launch-Canada-Final-Report" class="headerlink" title="Launch Canada Final Report"></a>Launch Canada Final Report</h3><p>We (3 people) completed a 37-page technical report in one day for the Launch Canada competition. Horrendous experience that I do not want to go through again. I aspire to write it better next year.</p>
+<h3 id="Software-Progress"><a href="#Software-Progress" class="headerlink" title="Software Progress"></a>Software Progress</h3><p>This week I processed the gyroscope and accelerometer data using a Kalman filter and fed the resulting angle data into the PID controller. This marks significant progress towards the hover functionality we plan to showcase at the Launch Canada competition in August. You can see the gimbal reacting to the sensor’s data below.</p>
 <p>In terms of simulation, after consulting with fellow rocket member <a target="_blank" rel="noopener" href="https://timothycai.com/">Timothy</a>, we decided to forgo creating a Matlab model and instead use the Ziegler-Nichols method for in the loop PID tuning. This seems like a more practical approach.</p>
 <h4 id="Gimbal-PID-Testing"><a href="#Gimbal-PID-Testing" class="headerlink" title="Gimbal PID Testing"></a>Gimbal PID Testing</h4><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe 
 src="/vid/IMG_6815.MOV" alt="Gimbal PID Testing" scrolling="no" border="0" 
@@ -383,11 +383,11 @@ frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolu
 height: 100%; left: 0; top: 0;"> </iframe></div>
 
 
-<h4 id="Next-Steps"><a href="#Next-Steps" class="headerlink" title="Next Steps"></a>Next Steps</h4><ul>
+<h3 id="Next-Steps"><a href="#Next-Steps" class="headerlink" title="Next Steps"></a>Next Steps</h3><ul>
 <li>Design and manufacture test rig for PID tuning</li>
 <li>Implement wireless functionalities</li>
 </ul>
-<h3 id="Nanaimo-Oysters-Harvesting-Trip"><a href="#Nanaimo-Oysters-Harvesting-Trip" class="headerlink" title="Nanaimo Oysters Harvesting Trip"></a>Nanaimo Oysters Harvesting Trip</h3><p>On Tuesday, I purchased a one-day fishing license and took a boat trip to Nanaimo for oyster harvesting. It was my first time and the beach was covered in oysters — a rewarding experience! No photos during harvesting cuz my hand was dirty.</p>
+<h2 id="Nanaimo-Oysters-Harvesting-Trip"><a href="#Nanaimo-Oysters-Harvesting-Trip" class="headerlink" title="Nanaimo Oysters Harvesting Trip"></a>Nanaimo Oysters Harvesting Trip</h2><p>On Tuesday, I purchased a one-day fishing license and took a boat trip to Nanaimo for oyster harvesting. It was my first time and the beach was covered in oysters — a rewarding experience! No photos during harvesting cuz my hand was dirty.</p>
 <div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/in-post/DSCF3429.jpeg"></div><div class="group-image-wrap"><img src="/img/in-post/DSCF3204.jpeg"></div><div class="group-image-wrap"><img src="/img/in-post/DSCF3304.jpeg"></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="/img/in-post/DSCF3425.jpeg"></div><div class="group-image-wrap"><img src="/img/in-post/DSCF3115.jpeg"></div></div></div>
 
 
