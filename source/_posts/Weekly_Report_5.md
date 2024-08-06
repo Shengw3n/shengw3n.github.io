@@ -71,7 +71,7 @@ I am currently on monitor and have to fiddle though the buttons on the back of m
 
 <figure style="text-align: center;">
     <img src="/img/in-post/MonitorControl.png" style="width: 500px;" alt="">
-    <figcaption>Me Carrying Rockets to The Classrooms</figcaption>
+    <figcaption>Monitor Control</figcaption>
 </figure>
 
 
