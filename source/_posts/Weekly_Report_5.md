@@ -52,7 +52,7 @@ I designed a simple avionics dock using Fusion360 this week. This dock will hous
 We successfully completed a safety meeting for the thrust vector rocket, clearing us for competition participation.
 
 ### UBC Geering Up Presentation
-We also presented for a classroom full of elementary school students for [UBC Geering Up](https://geeringup.apsc.ubc.ca) on university rocketry. The most common question I got from the kids was, "What's the minimum age to join UBC Rockets?" They are so cute.
+We also presented to a classroom full of elementary school students for [UBC Geering Up](https://geeringup.apsc.ubc.ca) on university rocketry. The most common question I got from the kids was, "What's the minimum age to join UBC Rockets?" They are so cute.
 <figure style="text-align: center;">
     <img src="/img/in-post/IMG_1540.HEIC" style="width: 500px;" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
     <figcaption>Me Carrying Rockets to The Classrooms</figcaption>
