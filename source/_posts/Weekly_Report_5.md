@@ -22,7 +22,7 @@ Busy rocket week as we approach the Launch Canada competition. With less than tw
 Following the [failure of our original Electronic Speed Controller (ESC)](https://shengw3n.github.io/2024/07/15/Weekly_Report_2/#UBC-Rockets), we finally received a replacement. However, local electronic stores does not have the connectors compatible with our existing setup. To resolve this, I cut the wires from the original ESC, soldered them to the new one, and applied heat shrink to maintain the original connectors. The staff at [Lee's Electronics](https://leeselectronic.com/)provided some great assistance and suggestions.
 
 <figure style="text-align: center;">
-    <img src="/img/in-post/IMG_1538.HEIC" style="width: 300px;" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
+    <img src="/img/in-post/IMG_1538.HEIC" style="width: 500px;" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
     <figcaption>ESC Soldered and Heat-Shrinked</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Following the [failure of our original Electronic Speed Controller (ESC)](https:
 I also gained practical experience in LiPo battery charging this week. I learned about selecting appropriate settings, voltage and current considerations, proper connection of balance pins, and the importance of using fireproof bags during charging.
 
 <figure style="text-align: center;">
-    <img src="/img/in-post/IMG_1569.HEIC" style="width: 300px;" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
+    <img src="/img/in-post/IMG_1569.HEIC" style="width: 500px;" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
     <figcaption>Charging LiPos</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ We successfully completed a safety meeting for the thrust vector rocket, clearin
 ### UBC Geering Up Presentation
 We also presented for a classroom full of elementary school students for [UBC Geering Up](https://geeringup.apsc.ubc.ca) on university rocketry. The most common question I got from the kids was, "What's the minimum age to join UBC Rockets?" They are so cute.
 <figure style="text-align: center;">
-    <img src="/img/in-post/IMG_1540.HEIC" style="width: 300px;" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
+    <img src="/img/in-post/IMG_1540.HEIC" style="width: 500px;" alt="Me and my ELEC 291 group getting A&W at 6 am after an all-nighter">
     <figcaption>Me Carrying Rockets to The Classrooms</figcaption>
 </figure>
 
