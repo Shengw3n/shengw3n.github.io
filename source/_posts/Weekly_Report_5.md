@@ -7,8 +7,8 @@ categories:
 index_img: /img/banner/DSCF2918.jpg
 banner_img: /img/banner/DSCF2918.jpg
 math: false
-excerpt: This article reflects on my life from the week of 07-29-2024 to 08-04-2024
-date: 2023-08-05 12:00:00
+excerpt: This article reflects on my life from the week of 07-29-2024 to 08-04-2024.
+date: 2024-08-05 12:00:00
 ---
 
 > This article reflects on my life from the week of `07-29-2024` to `08-04-2024`.
